@@ -13,4 +13,28 @@ h1 {
 h2 {
     font-size: 25px;
 }
+h3 {
+    font-size: 20px;
+}
+li {
+    list-style: none;
+}
 /* NAV */
+.flexNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flexButtonX3 {
+    display: flex;
+    justify-content: space-between;
+}
+.flexButtonX2 {
+    display: flex;
+}
+
+/* HEADER */
+.flexInput {
+    display: flex;
+    align-items: center;
+}
