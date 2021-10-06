@@ -67,12 +67,15 @@ a:hover {
     border-top: 1px;
 }
 
-/* HEADER */
+/* header */
 .flexInput {
     display: flex;
     align-items: center;
 }
-
+/* filters */
+.flexFilters {
+display: flex;
+}
 /* media queries for tablets (992 and down)  */
 @media screen and (max-width: 992px) {
     
