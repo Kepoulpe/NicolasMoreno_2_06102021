@@ -1,4 +1,4 @@
-/* GENERAL */
+/* general */
 @font-face {
     font-family: 'raleway';
     src: url(Raleway.ttf),
@@ -19,7 +19,8 @@ h3 {
 li {
     list-style: none;
 }
-/* NAV */
+
+/* nav */
 .flexNav {
     display: flex;
     align-items: center;
@@ -28,13 +29,55 @@ li {
 .flexButtonX3 {
     display: flex;
     justify-content: space-between;
+    width: 30%;
+    margin-top: 25px;
 }
 .flexButtonX2 {
     display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-right: 10%;
+}
+.flexButtonX1 {
+    margin-right: 25%;
+    margin-left: 5px;
+}
+.logoReservia {
+    width: 30%;
+    height: 30%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.spacingHébergements {
+    margin-right: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    color: #0065fc;
+}
+a:hover {
+    color: #0065fc;
+    font-weight: bold;
+}
+a:hover {
+    border-top: 1px solid #0065fc;
+    border-top: 1px;
 }
 
 /* HEADER */
 .flexInput {
     display: flex;
     align-items: center;
+}
+
+/* media queries for tablets (992 and down)  */
+@media screen and (max-width: 992px) {
+    
+}
+/* media queries for telephones (768 and down) */
+@media  screen and (max-width: 768px) {
+    
 }
