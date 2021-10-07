@@ -76,6 +76,104 @@ a:hover {
 .flexFilters {
 display: flex;
 }
+/* first section */
+.firstSection {
+    display: flex;
+}
+.populaireDiv {
+    order: 2;
+    background-color: #f2f2f2;
+    border-radius: 10%;
+}
+.hebergementDiv  {
+    order: 1;
+    background-color: #f2f2f2;
+    border-radius: 10%;
+}
+.flexCard {
+    display: flex;
+}
+/* little card */
+.littleCard {
+    background-image: url(images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-size: contain;
+    display: flex;
+}
+.littleCardSide {
+background-color: white;
+margin-left: 150px;
+padding: 10px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.littleCard2 {
+    background-image: url(images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-size: contain;
+    display: flex;
+}
+.littleCard3 {
+    background-image: url(images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-size: contain;
+    display: flex;
+}
+/* medium card */
+.mediumCard {
+    background-image: url(images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-repeat: no-repeat;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-size: contain;
+    padding-top: 215px;
+}
+.mediumCard2 {
+    background-image: url(images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-repeat: no-repeat;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-size: contain;
+    padding-top: 215px;
+}
+.mediumCard3 {
+    background-image: url(images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-repeat: no-repeat;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-size: contain;
+    padding-top: 215px;
+}
+.mediumCard4 {
+    background-image: url(images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-repeat: no-repeat;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-size: contain;
+    padding-top: 215px;
+}
+.mediumCard5 {
+    background-image: url(images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-repeat: no-repeat;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-size: contain;
+    padding-top: 215px;
+}
+.mediumCard6 {
+    background-image: url(images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-repeat: no-repeat;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-size: contain;
+    padding-top: 215px;
+}
+.mediumCardBottom {
+    background-color: white;
+}
 /* media queries for tablets (992 and down)  */
 @media screen and (max-width: 992px) {
     
