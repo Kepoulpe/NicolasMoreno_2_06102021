@@ -93,7 +93,6 @@ display: flex;
 .flexCard {
     display: flex;
 }
-/* little card */
 .littleCard {
     background-image: url(images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
     background-repeat: no-repeat;
@@ -122,7 +121,6 @@ border-bottom-right-radius: 20px;
     background-size: contain;
     display: flex;
 }
-/* medium card */
 .mediumCard {
     background-image: url(images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
     background-repeat: no-repeat;
@@ -173,6 +171,60 @@ border-bottom-right-radius: 20px;
 }
 .mediumCardBottom {
     background-color: white;
+}
+/* second section */
+.flexSecondSection {
+    display: flex;
+}
+.flexCardSecondSection {
+    display: flex;
+}
+.firstCard {
+    background-image: url(images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.secondCard {
+    background-image: url(images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.secondCard2 {
+    background-image: url(images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.firstCard2 {
+    background-image: url(images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.secondCard3 {
+    background-image: url(images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.secondCard4 {
+    background-image: url(images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* footer */
+.flexFooter {
+    display: flex;
+    align-items: center;
 }
 /* media queries for tablets (992 and down)  */
 @media screen and (max-width: 992px) {
