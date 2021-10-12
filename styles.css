@@ -189,9 +189,14 @@ border-bottom-right-radius: 20px;
 /* second section */
 .flexSecondSection {
     display: flex;
+    width: 100%;
 }
 .flexCardSecondSection {
     display: flex;
+    width: 50%;
+    background-color: #f2f2f2;
+    border-radius: 10%;
+    height: 500px;
 }
 .firstCard {
     background-image: url(images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
@@ -199,6 +204,7 @@ border-bottom-right-radius: 20px;
     background-repeat: no-repeat;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    width: 50%;
 }
 .secondCard {
     background-image: url(images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
@@ -235,14 +241,35 @@ border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+.secondCardSize {
+    width: 50%;
+}
 /* footer */
 .flexFooter {
     display: flex;
     align-items: center;
+    width: 100%;
+}
+.footerDivLeft {
+    width: 33%;
+}
+.footerDivMid {
+    width: 33%;
+}
+.footerDivRight {
+    width: 33%;
 }
 /* media queries for tablets (992 and down)  */
 @media screen and (max-width: 992px) {
-    
+.flexButtonX3 {
+    margin-right: 80px;
+}    
+.firstSection {
+    flex-direction: column;
+}
+.populaireDiv {
+    order: 1;
+}
 }
 /* media queries for telephones (768 and down) */
 @media  screen and (max-width: 768px) {
