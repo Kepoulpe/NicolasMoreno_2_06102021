@@ -116,12 +116,10 @@ display: flex;
     justify-content: space-around;
 }
 .littleCard {
-    background-image: url(images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/hotel-le-soleil.jpg);
     border-radius: 20px;
     display: flex;
-    /* background-repeat: no-repeat;
-    background-size: contain; */
-    background-position: center;
+    background-repeat: no-repeat;
     background-size: contain;
 }
 .littleCardSide {
@@ -132,21 +130,21 @@ border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 }
 .littleCard2 {
-    background-image: url(images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
     background-repeat: no-repeat;
     border-radius: 20px;
     background-size: contain;
     display: flex;
 }
 .littleCard3 {
-    background-image: url(images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
     background-repeat: no-repeat;
     border-radius: 20px;
     background-size: contain;
     display: flex;
 }
 .mediumCard {
-    background-image: url(images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
     background-repeat: no-repeat;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -154,7 +152,7 @@ border-bottom-right-radius: 20px;
     padding-top: 215px;
 }
 .mediumCard2 {
-    background-image: url(images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
     background-repeat: no-repeat;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -162,7 +160,7 @@ border-bottom-right-radius: 20px;
     padding-top: 215px;
 }
 .mediumCard3 {
-    background-image: url(images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
     background-repeat: no-repeat;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -170,7 +168,7 @@ border-bottom-right-radius: 20px;
     padding-top: 215px;
 }
 .mediumCard4 {
-    background-image: url(images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
     background-repeat: no-repeat;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -178,7 +176,7 @@ border-bottom-right-radius: 20px;
     padding-top: 215px;
 }
 .mediumCard5 {
-    background-image: url(images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
     background-repeat: no-repeat;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -186,7 +184,7 @@ border-bottom-right-radius: 20px;
     padding-top: 215px;
 }
 .mediumCard6 {
-    background-image: url(images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
     background-repeat: no-repeat;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -210,7 +208,7 @@ border-bottom-right-radius: 20px;
     height: 500px;
 }
 .firstCard {
-    background-image: url(images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-image: url(images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     border-top-left-radius: 20px;
@@ -218,35 +216,35 @@ border-bottom-right-radius: 20px;
     width: 50%;
 }
 .secondCard {
-    background-image: url(images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 .secondCard2 {
-    background-image: url(images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 .firstCard2 {
-    background-image: url(images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 .secondCard3 {
-    background-image: url(images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 .secondCard4 {
-    background-image: url(images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     border-top-left-radius: 20px;
