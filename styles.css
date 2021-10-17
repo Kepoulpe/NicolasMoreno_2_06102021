@@ -36,5 +36,8 @@
 }
 /* media queries for telephones (768 and down) */
 @media  screen and (max-width: 768px) {
-    
+.logoReservia {
+    margin-left: 25%;
+}
+
 }

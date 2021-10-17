@@ -35,15 +35,15 @@ ul {
     width: 30%;
     margin-top: 25px;
 }
-.flexButtonX2 {
+.flexLinkX2 {
     display: flex;
     width: 100%;
-    justify-content: space-around;
-    margin-right: 10%;
+    justify-content: flex-end;
+    margin-right: 3%;
+
 }
-.flexButtonX1 {
-    margin-right: 25%;
-    margin-left: 5px;
+.flexLinkX1 {
+    margin-right: 5%;
 }
 .logoReservia {
     width: 30%;
@@ -53,22 +53,25 @@ ul {
 }
 .spacingHébergements {
     margin-right: 50px;
+    border-top: solid 2px transparent;
+    padding-top: 23px;
+}
+.spacingActivités {
+    padding-top: 23px;
+}
+.soloLink {
+    font-weight: bold;
+    color: #0065fc;
 }
 /* reset links styles */
 a, a:link, a:hover, a:focus, a:visited, a:active {
     text-decoration: none;
     color: black;
 }
-a:active {
-    color: #0065fc;
-}
-a:hover {
+.duoLink:hover {
     color: #0065fc;
     font-weight: bold;
-}
-a:hover {
-    border-top: 1px solid #0065fc;
-    border-top: 1px;
+    border-top: solid 2px #0065fc;
 }
 
 /* header */
