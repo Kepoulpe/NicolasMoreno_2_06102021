@@ -8,6 +8,8 @@ html,body {
     font-family: raleway;
     /* choosing 'border-box' here will count the border of all elements in their width and height */
     box-sizing: border-box;
+    /* setting the margin 0 prevents browser default HTML elements styling */
+    margin: 0;
 }
 h1 {
     font-size: 35px;
@@ -63,14 +65,14 @@ ul {
 .spacingActivités {
     padding-top: 30px;
 }
-.soloLink {
-    font-weight: bold;
-    color: #0065fc;
-}
 /* reset links styles */
 a, a:link, a:hover, a:focus, a:visited, a:active {
     text-decoration: none;
     color: black;
+}
+.soloLink, .soloLink:hover, .soloLink:focus, .soloLink:visited, .soloLink:active {
+    font-weight: bold;
+    color: #0065fc;
 }
 .duoLink:hover {
     color: #0065fc;
@@ -88,6 +90,7 @@ a, a:link, a:hover, a:focus, a:visited, a:active {
 display: flex;
 justify-content: space-around;
 }
+
 .iconX4 {
     color: #0065fc;
     height: 60px;
@@ -96,6 +99,20 @@ justify-content: space-around;
     background-color: #f2f2f2;
     border-radius: 100%;
 }
+.iconX4_bis_div {
+    background-color: #f2f2f2;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconX4_bis {
+    color: #0065fc;
+    font-size: 30px;
+}
+
 .underFilters {
     display: flex;
 }
@@ -118,8 +135,7 @@ justify-content: space-around;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 40px;
-    margin-right: 3%;
+    align-items: center;
 }
 .hebergementDiv  {
     order: 1;
@@ -137,6 +153,7 @@ justify-content: space-around;
     display: flex;
     background-repeat: no-repeat;
     background-size: contain;
+    max-width: 90%;
 }
 .littleCardSide {
 background-color: white;
@@ -159,48 +176,25 @@ border-bottom-right-radius: 20px;
     background-size: contain;
     display: flex;
 }
-.mediumCard {
+#mediumCard {
     background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
-    background-repeat: no-repeat;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    background-size: contain;
-    padding-top: 215px;
 }
-.mediumCard2 {
+#mediumCard2 {
     background-image: url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
-    background-repeat: no-repeat;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    background-size: contain;
-    padding-top: 215px;
 }
-.mediumCard3 {
+#mediumCard3 {
     background-image: url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
-    background-repeat: no-repeat;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    background-size: contain;
-    padding-top: 215px;
 }
-.mediumCard4 {
+#mediumCard4 {
     background-image: url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
-    background-repeat: no-repeat;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    background-size: contain;
-    padding-top: 215px;
 }
-.mediumCard5 {
+#mediumCard5 {
     background-image: url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
-    background-repeat: no-repeat;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    background-size: contain;
-    padding-top: 215px;
 }
-.mediumCard6 {
+#mediumCard6 {
     background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+}
+.mediumCard {
     background-repeat: no-repeat;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
