@@ -18,7 +18,7 @@ h2 {
     font-size: 20px;
 }
 h3 {
-    font-size: 20px;
+    font-size: 25px;
 }
 ul {
     list-style: none;
@@ -26,6 +26,12 @@ ul {
 }
 main {
     padding-left: 8px;
+}
+.ratingStars {
+    color: #0065fc;
+}
+.ratingStarsBis {
+    color: #f2f2f2;
 }
 
 /* nav */
@@ -87,6 +93,41 @@ a, a:link, a:hover, a:focus, a:visited, a:active {
 .flexInput {
     display: flex;
     align-items: center;
+}
+.markerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 55px;
+    background-color: #f2f2f2;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 10px;
+}
+.marker {
+    font-size: 20px;
+}
+input {
+    height: 55px;
+    width: 250px;
+    border: #f2f2f2 solid 2px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+::placeholder {
+    font-size: 20px;
+    color: black;
+}
+input[type=submit] {
+    border: none;
+    background-color: #0065fc;
+    margin-left: 10px;
+    width: 150px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    font-size: 20px;
 }
 /* filters */
 .inputSection {
@@ -172,34 +213,61 @@ margin-top: 2%;
     display: flex;
     justify-content: space-around;
 }
-.littleCard {
-    background-image: url(images/hebergements/4_small/hotel-le-soleil.jpg);
-    border-radius: 20px;
+.littleCardWrapper {
     display: flex;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-width: 90%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 1% 0 1% 1%;
+    width: 80%;
+    height: 20%;
+}
+.littleCard {
+    border-radius: 30px 0 0 30px;
+    display: flex;
+    background-size: 175%;
+    background-position: center;
+    width: 35%;
+}
+.littleCardBis {
+    background-size: 200%;
+}
+#littleCard {
+    background-image: url(images/hebergements/4_small/hotel-le-soleil.jpg);
+}
+#littleCard2 {
+    background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+
+}
+#littleCard3 {
+    background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+
 }
 .littleCardSide {
 background-color: white;
-margin-left: 150px;
-padding: 10px;
-border-top-right-radius: 20px;
-border-bottom-right-radius: 20px;
+margin-left: 6%;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
 }
-.littleCard2 {
-    background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    background-size: contain;
+.populaireTitle {
     display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 120px;
 }
-.littleCard3 {
-    background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    background-size: contain;
-    display: flex;
+.ratingIconPositioning {
+    margin-left: 95px;
+}
+.ratingSpan {
+    font-size: 30px;
+}
+.H3PoplairePositioning {
+    margin-top: 5%;
+}
+.underH3Positioning {
+    margin-top: -6%;
+}
+.ratingStarsPositioning {
+    margin-top: 15%;
 }
 #mediumCard {
     background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
@@ -219,12 +287,18 @@ border-bottom-right-radius: 20px;
 #mediumCard6 {
     background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
 }
+.mediumCardWrapper {
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    padding: 1% 0 1% 1%;
+    width: 20%;
+    height: 30%;
+}
 .mediumCard {
-    background-repeat: no-repeat;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    background-size: contain;
-    padding-top: 215px;
+    background-size: cover;
 }
 .mediumCardBottom {
     background-color: white;

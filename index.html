@@ -28,7 +28,11 @@
         <p>En plein centre ville ou en pleine nature</p>
       </div>
       <div class="flexInput">
-        <div><i class="fas fa-map-marker-alt"></i></div>
+        <div class="markerWrapper">
+        <span class="marker">
+          <div><i class="fas fa-map-marker-alt"></i></div>
+        </span>
+      </div>
         <div><input type="search" placeholder="Marseille, France"></div>
         <div><input type="submit" value="Rechercher"></div>
       </div>
@@ -78,34 +82,86 @@
   </section>
   <section class="firstSection">
     <div class="populaireDiv">   
-      <div>
-        <h1>Les plus populaires</h1>
-        <!--icon-->
+      <div class="populaireTitle">
+        <div>
+          <h1>Les plus populaires</h1>
+        </div>
+        <div class="ratingIconPositioning">
+          <span class="ratingSpan">
+            <i class="fas fa-chart-line"></i>
+          </span>
+        </div>
       </div>
-      <div class="littleCard">
+      <div class="littleCardWrapper">
+        <div id="littleCard" class="littleCard"></div>
         <div class="littleCardSide">
-          <h3>Hôtel Le soleil du matin</h3>
-          <p>Nuit à partir de 128€</p>
-          <div>
-            <!--rating stars-->
+          <h3 class="H3PoplairePositioning">Hôtel Le soleil du matin</h3>
+          <p class="underH3Positioning">Nuit à partir de 128€</p>
+          <div class="ratingStarsPositioning">
+            <span class="ratingStars">
+              <i class="fas fa-star"></i>
+            </span>
+            <span class="ratingStars">
+              <i class="fas fa-star"></i>
+            </span>
+            <span class="ratingStars">
+              <i class="fas fa-star"></i>
+            </span>
+            <span class="ratingStars">
+              <i class="fas fa-star"></i>
+            </span>
+            <span class="ratingStars">
+              <i class="fas fa-star"></i>
+            </span>
           </div>
         </div>
       </div>
-      <div class="littleCard2">
+      <div class="littleCardWrapper">
+      <div id="littleCard2" class="littleCard littleCardBis">
+      </div>
         <div class="littleCardSide">
-          <h3>Au coeur de l'eau Chambres d'hotes</h3>
-          <p>Nuit à partir de 71€</p>
-          <div>
-            <!--rating stars-->
+          <h3 class="H3PoplairePositioning">Au coeur de l'eau Chambres d'hotes</h3>
+          <p class="underH3Positioning">Nuit à partir de 71€</p>
+          <div class="ratingStarsPositioning">
+            <span class="ratingStars">
+              <i class="fas fa-star"></i>
+            </span>
+            <span class="ratingStars">
+              <i class="fas fa-star"></i>
+            </span>
+            <span class="ratingStars">
+              <i class="fas fa-star"></i>
+            </span>
+            <span class="ratingStars">
+              <i class="fas fa-star"></i>
+            </span>
+            <span class="ratingStarsBis">
+              <i class="fas fa-star"></i>
+            </span>
           </div>
         </div>
-      </div>
-      <div class="littleCard3">
+    </div>
+    <div class="littleCardWrapper">
+      <div id="littleCard3" class="littleCard"></div>
         <div class="littleCardSide">
-          <h3>Hôtel Tout bleu et Blanc</h3>
-          <p>Nuit à partir de 68€</p>
-          <div>
-            <!--rating stars-->
+          <h3 class="H3PoplairePositioning">Hôtel Tout bleu et Blanc</h3>
+          <p class="underH3Positioning">Nuit à partir de 68€</p>
+          <div class="ratingStarsPositioning">
+            <span class="ratingStars">
+              <i class="fas fa-star"></i>
+            </span>
+            <span class="ratingStars">
+              <i class="fas fa-star"></i>
+            </span>
+            <span class="ratingStars">
+              <i class="fas fa-star"></i>
+            </span>
+            <span class="ratingStars">
+              <i class="fas fa-star"></i>
+            </span>
+            <span class="ratingStarsBis">
+              <i class="fas fa-star"></i>
+            </span>
           </div>
         </div>
       </div>
@@ -113,21 +169,51 @@
     <div id="hébergements" class="hebergementDiv">
       <h1 class="h1Hebergements">Hébergements à Marseille</h1>
       <div class="flexCard">
+        <div class="mediumCardWrapper">
         <div id="mediumCard" class="mediumCard">
           <div class="mediumCardBottom">
             <h3>Auberge la Cannebière</h3>
-            <p>Nuit à partir de 25€</p>
+            <p class="underH3Positioning">Nuit à partir de 25€</p>
             <div>
-              <!--rating stars-->
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStarsBis">
+                <i class="fas fa-star"></i>
+              </span>
             </div>
           </div>
         </div>
+      </div>
         <div id="mediumCard2" class="mediumCard">
           <div class="mediumCardBottom">
             <h3>Hôtel du port</h3>
             <p>Nuit à partir de 52€</p>
             <div>
-              <!--rating stars-->
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
             </div>
           </div>
         </div>
@@ -136,7 +222,21 @@
             <h3>Hôtel les mouettes</h3>
             <p>Nuit à partir de 76€</p>
             <div>
-              <!--rating stars-->
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStarsBis">
+                <i class="fas fa-star"></i>
+              </span>
             </div>
           </div>
         </div>
@@ -147,7 +247,21 @@
              <h3>Hôtel de la mer</h3>
              <p>Nuit à partir de 46€</p>
             <div>
-              <!--rating stars-->
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStarsBis">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStarsBis">
+                <i class="fas fa-star"></i>
+              </span>
             </div>
           </div>
         </div>
@@ -156,7 +270,21 @@
              <h3>Auberge Le Panier</h3>
              <p>Nuit à partir de 23€</p>
             <div>
-              <!--rating stars-->
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStarsBis">
+                <i class="fas fa-star"></i>
+              </span>
             </div>
           </div>
         </div>
@@ -165,7 +293,21 @@
              <h3>Hôtel chez Amina</h3>
              <p>Nuit à partir de 96€</p>
             <div>
-              <!--rating stars-->
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
+              <span class="ratingStars">
+                <i class="fas fa-star"></i>
+              </span>
             </div>
           </div>
         </div>
