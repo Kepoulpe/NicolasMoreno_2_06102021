@@ -184,13 +184,10 @@ margin-top: 2%;
     margin-right: 30px;
 }
 /* first section */
-.h1Hebergements {
-    margin-left: 60px;
-}
 .firstSection {
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 900px;
     justify-content: space-around;
 }
 .populaireDiv {
@@ -203,16 +200,7 @@ margin-top: 2%;
     justify-content: space-around;
     align-items: center;
 }
-.hebergementDiv  {
-    order: 1;
-    background-color: #f2f2f2;
-    border-radius: 10%;
-    width: 60%;
-}
-.flexCard {
-    display: flex;
-    justify-content: space-around;
-}
+    /* populaires side */
 .littleCardWrapper {
     display: flex;
     background-color: white;
@@ -243,10 +231,7 @@ margin-top: 2%;
 
 }
 .littleCardSide {
-background-color: white;
 margin-left: 6%;
-border-top-right-radius: 30px;
-border-bottom-right-radius: 30px;
 }
 .populaireTitle {
     display: flex;
@@ -269,6 +254,24 @@ border-bottom-right-radius: 30px;
 .ratingStarsPositioning {
     margin-top: 15%;
 }
+    /* hebergements side */
+    .h1Hebergements {
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    .hebergementDiv  {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        order: 1;
+        background-color: #f2f2f2;
+        border-radius: 10%;
+        width: 65%;
+    }
+    .flexCard {
+        display: flex;
+        justify-content:space-around;
+    }
 #mediumCard {
     background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
 }
@@ -289,19 +292,19 @@ border-bottom-right-radius: 30px;
 }
 .mediumCardWrapper {
     display: flex;
+    flex-direction: column;
     background-color: white;
     border-radius: 30px;
-    padding: 1% 0 1% 1%;
-    width: 20%;
-    height: 30%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    width: 350px;
+    height:290px;
 }
 .mediumCard {
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    height: 65%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
     background-size: cover;
-}
-.mediumCardBottom {
-    background-color: white;
+    background-position: center;
 }
 /* second section */
 .flexSecondSection {
