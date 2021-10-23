@@ -12,7 +12,7 @@ html,body {
     margin: 0;
 }
 h1 {
-    font-size: 35px;
+    font-size: 40px;
 }
 h2 {
     font-size: 20px;
@@ -201,13 +201,21 @@ margin-top: 2%;
     align-items: center;
 }
     /* populaires side */
+    .littleCardContainer {
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 .littleCardWrapper {
     display: flex;
     background-color: white;
     border-radius: 30px;
     padding: 1% 0 1% 1%;
     width: 80%;
-    height: 20%;
+    height: 29%;
+    margin-top: -55px;
 }
 .littleCard {
     border-radius: 30px 0 0 30px;
@@ -217,7 +225,7 @@ margin-top: 2%;
     width: 35%;
 }
 .littleCardBis {
-    background-size: 200%;
+    background-size: 160%;
 }
 #littleCard {
     background-image: url(images/hebergements/4_small/hotel-le-soleil.jpg);
@@ -233,6 +241,13 @@ margin-top: 2%;
 .littleCardSide {
 margin-left: 6%;
 }
+.littleCardSideWidth {
+    width: 250px;
+}
+.littleCardSideWidthBis {
+    width: 170px;
+    background-size: 100%;
+}
 .populaireTitle {
     display: flex;
     align-items: center;
@@ -240,7 +255,7 @@ margin-left: 6%;
     padding-left: 120px;
 }
 .ratingIconPositioning {
-    margin-left: 95px;
+    margin-left: 60px;
 }
 .ratingSpan {
     font-size: 30px;
@@ -256,7 +271,7 @@ margin-left: 6%;
 }
     /* hebergements side */
     .h1Hebergements {
-        margin-left: 70px;
+        margin-left: 40px;
         margin-top: 50px;
     }
     .hebergementDiv  {
