@@ -367,9 +367,11 @@ margin-left: 6%;
     justify-content: space-around;
     width: 100%;
     height: 650px;
+    margin-left: -15px;
 }
 .flexCardSecondSection {
     display: flex;
+    justify-content: space-between;
     width: 45%;
     height: 500px;
 }
@@ -378,8 +380,7 @@ margin-left: 6%;
     flex-direction: column;
     background-color: white;
     border-radius: 30px;
-    padding: 2% 2% 2%;
-    width: 350px;
+    width: 400px;
     height:105%;
     box-shadow: 1px 1px 1px #f2f2f2;
 }
@@ -392,39 +393,62 @@ margin-left: 6%;
     background-size: 225%;
 }
 #firstBigCard {
-    background-image: url(images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-image: url(images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
 }
 #secondBigCard {
-    background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-image: url(images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+}
+.mediumCardActivitésWrapper {
+    display: flex;
+    flex-direction: column;
+    height:60%;
+    width: 400px;
+    box-shadow: 1px 1px 1px #f2f2f2;
+    border-radius: 30px;
+}
+.mediumCardActivitésWrapperBis {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 400px;
+    box-shadow: 1px 1px 1px #f2f2f2;
+    border-radius: 30px;
+}
+.mediumCardActivitésWrapper:hover {
+    box-shadow: #f2f2f2 2px 2px 2px;
 }
 .secondCard {
-    background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    height: 100%;
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-position: center;
 }
-.secondCard2 {
+.secondCardBis {
+    height: 100%;
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-position-y: -50px;
+}
+.secondCardThird {
+    height: 100%;
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#mediumCardActivités1 {
+    background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+}
+#mediumCardActivités2 {
     background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
 
-.secondCard3 {
-    background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+#mediumCardActivités3 {
+    background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
 }
-.secondCard4 {
+#mediumCardActivités4 {
     background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
 .secondCardSize {
     width: 50%;
