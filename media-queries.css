@@ -1,49 +1,159 @@
-/* media queries for tablets (992 and down)  */
-@media screen and (max-width: 992px) {
-    .flexButtonX3 {
-        margin-right: 80px;
-    }    
-    .inputSection {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .textInputSection {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .firstSection {
-        flex-direction: column;
-        align-items: center;
-    }
-    .populaireDiv {
-        order: 1;
-    }
-    .flexSecondSection {
-        flex-direction: column;
-        align-items: center;
-    }
-    .activitésSection {
-        text-align: center;
-    }
-    .flexFooter {
-        padding-left: 8%;
-    }
-    }
-    /* media queries for telephones (768 and down) */
-    @media  screen and (max-width: 768px) {
-    .logoReservia {
-        margin-left: 25%;
-    }
-    .flexFooter {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding-left: -10%;
-    }
-    ul {
-        margin-left: -15%;
-    }
-    
-    }
+        /* media queries for tablets (992 and down)  */
+        
+        @media screen and (max-width: 992px) {
+            .flexButtonX3 {
+                margin-right: 80px;
+            }
+            .inputSection {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .textInputSection {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 80%;
+                text-align: center;
+            }
+            .underTitlePosition {
+                margin-top: -15px;
+                margin-bottom: 40px;
+            }
+            /* filters */
+            .flexFilters {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .filterWrapperX2 {
+                margin-left: -40px;
+                margin-bottom: 20px;
+            }
+            .filterWrapperBis {
+                margin-left: 0px;
+                margin-bottom: 20px;
+            }
+            .activitésSection {
+                text-align: center;
+            }
+            .flexFooter {
+                padding-left: 8%;
+            }
+            /* first section */
+            .littleCardSideWidthBis {
+                width: 180px;
+            }
+            .ratingStarsPositioningBis {
+                margin-top: 75px;
+            }
+            .firstSection {
+                flex-direction: column;
+                align-items: center;
+                height: 100%;
+            }
+            .populaireDiv {
+                order: 1;
+                width: 70%;
+                height: 870px;
+            }
+            .populaireTitle {
+                padding-left: 85px;
+            }
+            .hebergementDiv {
+                background-color: transparent;
+                align-items: center;
+            }
+            .topPosition {
+                margin-top: 0px;
+            }
+            .flexCard {
+                flex-direction: column;
+                align-items: center;
+            }
+            .mediumCardWrapper {
+                margin-bottom: 30px;
+            }
+            /* second section */
+            .h1ActivitésPosition {
+                margin-left: -60px;
+            }
+            .flexSecondSection {
+                flex-direction: column;
+                height: 100%;
+                align-items: center;
+                justify-content: initial;
+                text-align: initial;
+                margin-left: 30px;
+            }
+            .flexCardSecondSection {
+                flex-direction: column;
+                height: initial;
+            }
+            .mediumCardWrapper {
+                height: 290px;
+                width: 400px;
+                box-shadow: 1px 1px 1px #f2f2f2;
+            }
+            .bigCardWrapper {
+                height: 290px;
+                margin-bottom: 40px;
+            }
+            .mediumCardActivitésWrapper {
+                height: 290px;
+                margin-bottom: 40px;
+            }
+            .mediumCardActivitésWrapperBis {
+                height: 290px;
+                margin-bottom: 40px;
+            }
+            .mediumCardActivitésWrapperThird {
+                height: 290px;
+                margin-bottom: 40px;
+            }
+        }
+        /* media queries for telephones (768 and down) */
+        
+        @media screen and (max-width: 768px) {
+            /* header */
+            .logoReservia {
+                margin-left: initial;
+                width: 50%;
+                margin-bottom: 40px;
+            }
+            .flexNav {
+                width: 105%;
+            }
+            .flexSplitNav {
+                flex-direction: column;
+            }
+            .flexLinkX2 {
+                font-size: 30px;
+            }
+            .flexLinkX1 {
+                position: absolute;
+                top: 75px;
+                left: 520px;
+                font-size: 30px;
+            }
+            .spacingHébergements {
+                margin-left: 120px;
+            }
+            .spacingActivités {
+                margin-left: 40px;
+            }
+            .duoLink:hover {
+                color: #0065fc;
+                font-weight: bold;
+                border-top: initial;
+                border-bottom: solid 2px #0065fc;
+            }
+            .flexFooter {
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                padding-left: -10%;
+            }
+            ul {
+                margin-left: -15%;
+            }
+        }

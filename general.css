@@ -1,100 +1,134 @@
 /* general */
+
 @font-face {
     font-family: 'raleway';
-    src: url(Raleway.ttf),
-         url(Raleway-italic.ttf);   
+    src: url(Raleway.ttf), url(Raleway-italic.ttf);
 }
-html,body {
+
+html,
+body {
     font-family: raleway;
     /* choosing 'border-box' here will count the border of all elements in their width and height */
     box-sizing: border-box;
     /* setting the margin 0 prevents browser default HTML elements styling */
     margin: 0;
 }
+
 h1 {
     font-size: 40px;
 }
+
 h2 {
     font-size: 20px;
 }
+
 h3 {
     font-size: 25px;
 }
+
 ul {
     list-style: none;
     margin-left: -7%;
 }
+
 main {
     padding-left: 8px;
 }
+
 .ratingStars {
     color: #0065fc;
 }
+
 .ratingStarsBis {
     color: #f2f2f2;
 }
 
+
 /* nav */
+
 .flexNav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
 }
+
 .flexSplitNav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 90%;
 }
+
 .flexButtonX3 {
     display: flex;
     justify-content: space-between;
     width: 30%;
     margin-top: 25px;
 }
+
 .flexLinkX2 {
     display: flex;
 }
+
 .flexLinkX1 {
     width: 10%;
     margin-left: 50px;
 }
+
 .logoReservia {
     width: 30%;
     margin-top: 5%;
     margin-left: 15%;
 }
+
 .spacingHébergements {
     margin-right: 50px;
     margin-top: 50px;
     border-top: solid 2px transparent;
     padding-top: 45px;
 }
+
 .spacingActivités {
     padding-top: 45px;
 }
 
+
 /* reset links styles */
-a, a:link, a:hover, a:focus, a:visited, a:active {
+
+a,
+a:link,
+a:hover,
+a:focus,
+a:visited,
+a:active {
     text-decoration: none;
     color: black;
 }
-.soloLink, .soloLink:hover, .soloLink:focus, .soloLink:visited, .soloLink:active {
+
+.soloLink,
+.soloLink:hover,
+.soloLink:focus,
+.soloLink:visited,
+.soloLink:active {
     font-weight: bold;
     color: #0065fc;
 }
+
 .duoLink:hover {
     color: #0065fc;
     font-weight: bold;
     border-top: solid 2px #0065fc;
 }
 
+
 /* header */
+
 .flexInput {
     display: flex;
     align-items: center;
 }
+
 .markerWrapper {
     display: flex;
     justify-content: center;
@@ -106,9 +140,11 @@ a, a:link, a:hover, a:focus, a:visited, a:active {
     border-bottom-left-radius: 20px;
     margin-right: 10px;
 }
+
 .marker {
     font-size: 20px;
 }
+
 input {
     height: 55px;
     width: 250px;
@@ -116,10 +152,12 @@ input {
     font-weight: bold;
     padding-left: 10px;
 }
+
 ::placeholder {
     font-size: 20px;
     color: black;
 }
+
 input[type=submit] {
     border: none;
     background-color: #0065fc;
@@ -130,20 +168,25 @@ input[type=submit] {
     color: white;
     font-size: 20px;
 }
+
 .flexForm {
     display: flex;
 }
+
 .submitButton:hover {
     background-color: #0065fcd3;
 }
+
+
 /* filters */
+
 .inputSection {
     padding-left: 3%;
 }
 
 .flexFilters {
-display: flex;
-margin-top: 2%;
+    display: flex;
+    margin-top: 2%;
 }
 
 .iconX4Div {
@@ -157,29 +200,38 @@ margin-top: 2%;
     margin-right: 30px;
     margin-left: -5px;
 }
+
 .iconX4 {
     color: #0065fc;
     font-size: 30px;
 }
+
 .filterWrapper {
     display: flex;
     border: solid 2px #f2f2f2;
     margin-left: 40px;
-    align-items:center;
+    align-items: center;
     border-radius: 30px;
     height: 56px;
     padding-right: 40px;
 }
+
+.filterWrapperX2 {
+    display: flex;
+}
+
 .underFilters {
     display: flex;
     align-items: center;
     margin-bottom: 1%;
     margin-bottom: 2%;
 }
+
 .infoIcon {
     color: #0065fc;
     font-size: 15px;
 }
+
 .infoIconWrapper {
     display: flex;
     align-items: center;
@@ -190,16 +242,21 @@ margin-top: 2%;
     height: 25px;
     margin-right: 30px;
 }
+
 .filterWrapper:hover {
     background-color: #f2f2f2;
 }
+
+
 /* first section */
+
 .firstSection {
     display: flex;
     width: 100%;
     height: 900px;
     justify-content: space-around;
 }
+
 .populaireDiv {
     order: 2;
     background-color: #f2f2f2;
@@ -210,23 +267,28 @@ margin-top: 2%;
     justify-content: space-around;
     align-items: center;
 }
-    /* populaires side */
-    .littleCardContainer {
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
+
+
+/* populaires side */
+
+.littleCardContainer {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .littleCardWrapper {
     display: flex;
     background-color: white;
     border-radius: 30px;
     padding: 1% 0 1% 1%;
-    width: 80%;
-    height: 25%;
-    margin-top: -35px;
+    width: 100%;
+    height: 100%;
+    margin-top: -15px;
 }
+
 .littleCard {
     border-radius: 30px 0 0 30px;
     display: flex;
@@ -234,96 +296,126 @@ margin-top: 2%;
     background-position: center;
     width: 35%;
 }
+
 .littleCardBis {
     background-size: 160%;
 }
+
 #littleCard {
     background-image: url(images/hebergements/4_small/hotel-le-soleil.jpg);
 }
+
 #littleCard2 {
     background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
-
 }
+
 #littleCard3 {
     background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+}
 
-}
 .littleCardSide {
-margin-left: 6%;
+    margin-left: 6%;
 }
+
 .littleCardSideWidth {
     width: 250px;
 }
+
 .littleCardSideWidthBis {
     width: 170px;
     background-size: 100%;
 }
+
 .populaireTitle {
     display: flex;
     align-items: center;
     width: 80%;
     padding-left: 5px;
     height: 7%;
+    margin-top: 15px;
 }
+
+.littleCardLink {
+    display: flex;
+    height: 25%;
+    width: 80%;
+}
+
 .ratingIconPositioning {
     margin-left: 60px;
 }
+
 .ratingSpan {
     font-size: 30px;
 }
+
 .H3PoplairePositioning {
     margin-top: 5%;
 }
+
 .underH3Positioning {
     margin-top: -6%;
 }
+
 .ratingStarsPositioning {
     margin-top: 15%;
 }
-.linkLittleCard:hover {
-    border-radius: 30px;
-    box-shadow: 15px 15px 5px 5px grey;
-    background-color: transparent;
+
+.littleCardWrapper:hover {
+    box-shadow: 10px 10px 10px grey;
 }
-    /* hebergements side */
-    .h1Hebergements {
-        margin-left: 40px;
-        margin-top: 50px;
-    }
-    .hebergementDiv  {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        order: 1;
-        background-color: #f2f2f2;
-        border-radius: 30px;
-        width: 65%;
-    }
-    .flexCard {
-        display: flex;
-        justify-content:space-around;
-    }
-    .topPosition {
-        margin-top: -50px;
-    }
+
+
+/* hebergements side */
+
+.h1Hebergements {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.hebergementDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    order: 1;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    width: 65%;
+}
+
+.flexCard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.topPosition {
+    margin-top: -50px;
+}
+
 #mediumCard {
     background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
 }
+
 #mediumCard2 {
     background-image: url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
 }
+
 #mediumCard3 {
     background-image: url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
 }
+
 #mediumCard4 {
     background-image: url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
 }
+
 #mediumCard5 {
     background-image: url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
 }
+
 #mediumCard6 {
     background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
 }
+
 .mediumCardWrapper {
     display: flex;
     flex-direction: column;
@@ -331,8 +423,9 @@ margin-left: 6%;
     border-radius: 30px;
     padding: 2% 2% 2%;
     width: 350px;
-    height:290px;
+    height: 290px;
 }
+
 .mediumCard {
     height: 65%;
     border-top-right-radius: 30px;
@@ -340,28 +433,36 @@ margin-left: 6%;
     background-size: cover;
     background-position: center;
 }
+
 .mediumCardBottom {
     padding-left: 20px;
 }
+
 .linkMediumCard:hover {
     border-radius: 30px;
     box-shadow: 15px 15px 5px 5px grey;
     background-color: transparent;
     height: 290px;
 }
+
 .h2AfficherPlusPosition {
     width: 10%;
     margin-left: 40px;
     margin-bottom: 40px;
 }
+
 .h2AfficherPlusPosition:hover {
     color: #0065fc;
 }
+
+
 /* second section */
+
 .h1ActivitésPosition {
     margin-left: 40px;
     margin-top: 90px;
 }
+
 .flexSecondSection {
     display: flex;
     justify-content: space-around;
@@ -369,21 +470,24 @@ margin-left: 6%;
     height: 650px;
     margin-left: -15px;
 }
+
 .flexCardSecondSection {
     display: flex;
     justify-content: space-between;
     width: 45%;
     height: 500px;
 }
+
 .bigCardWrapper {
     display: flex;
     flex-direction: column;
     background-color: white;
     border-radius: 30px;
     width: 400px;
-    height:105%;
+    height: 105%;
     box-shadow: 1px 1px 1px #f2f2f2;
 }
+
 .bigCard {
     height: 100%;
     border-top-right-radius: 30px;
@@ -392,20 +496,29 @@ margin-left: 6%;
     background-position: center;
     background-size: 225%;
 }
+
 #firstBigCard {
     background-image: url(images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
 }
+
 #secondBigCard {
     background-image: url(images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
 }
+
+.bigCardWrapper:hover {
+    box-shadow: grey 10px 10px 10px;
+}
+
 .mediumCardActivitésWrapper {
     display: flex;
     flex-direction: column;
-    height:60%;
+    height: 60%;
     width: 400px;
     box-shadow: 1px 1px 1px #f2f2f2;
     border-radius: 30px;
+    margin-bottom: 30px;
 }
+
 .mediumCardActivitésWrapperBis {
     display: flex;
     flex-direction: column;
@@ -414,9 +527,29 @@ margin-left: 6%;
     box-shadow: 1px 1px 1px #f2f2f2;
     border-radius: 30px;
 }
-.mediumCardActivitésWrapper:hover {
-    box-shadow: #f2f2f2 2px 2px 2px;
+
+.mediumCardActivitésWrapperThird {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 400px;
+    box-shadow: 1px 1px 1px #f2f2f2;
+    border-radius: 30px;
+    margin-bottom: 30px;
 }
+
+.mediumCardActivitésWrapper:hover {
+    box-shadow: grey 10px 10px 10px;
+}
+
+.mediumCardActivitésWrapperBis:hover {
+    box-shadow: grey 10px 10px 10px;
+}
+
+.mediumCardActivitésWrapperThird:hover {
+    box-shadow: grey 10px 10px 10px;
+}
+
 .secondCard {
     height: 100%;
     background-size: cover;
@@ -424,6 +557,7 @@ margin-left: 6%;
     border-top-right-radius: 30px;
     background-position: center;
 }
+
 .secondCardBis {
     height: 100%;
     background-size: cover;
@@ -431,43 +565,68 @@ margin-left: 6%;
     border-top-right-radius: 30px;
     background-position-y: -50px;
 }
+
 .secondCardThird {
     height: 100%;
     background-size: cover;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    background-position-y: -20px;
 }
+
+.secondCardFourth {
+    height: 100%;
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-position-y: -50px;
+}
+
 #mediumCardActivités1 {
     background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
 }
+
 #mediumCardActivités2 {
     background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
 }
 
 #mediumCardActivités3 {
-    background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-image: url(images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg);
 }
+
 #mediumCardActivités4 {
     background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
 }
+
 .secondCardSize {
     width: 50%;
 }
+
+.h3ActivitésPosition {
+    margin-left: 20px;
+}
+
+
 /* footer */
+
 .flexFooter {
     display: flex;
     padding-left: 3%;
     background-color: #f2f2f2;
 }
+
 .footerDivLeft {
     width: 30%;
 }
+
 .footerDivMid {
     width: 30%;
 }
+
 .footerDivRight {
     width: 30%;
 }
+
 .footerListe:hover {
     font-weight: bold;
     color: #0065fc;
