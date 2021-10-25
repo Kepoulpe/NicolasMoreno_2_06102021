@@ -46,11 +46,15 @@ main {
 
 /* nav */
 
+nav {
+    height: 100px;
+}
+
 .flexNav {
     display: flex;
     align-items: center;
-    margin-top: 20px;
     width: 100%;
+    height: 100px;
     justify-content: space-between;
 }
 
@@ -64,45 +68,42 @@ main {
 .flexLinkX3 {
     display: flex;
     justify-content: space-around;
-    width: 45%;
     align-items: center;
     text-align: center;
-    font-size: 20px;
-    height: 115px;
 }
 
 .flexLinkX2 {
     display: flex;
-    width: 66%;
+    margin-left: 70%;
     justify-content: space-around;
     align-items: center;
-    height: 133%;
 }
 
 .flexLinkX1 {
-    width: 33%;
+    width: 140px;
+    height: 98px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .linkStyle {
-    height: 100%;
-    width: 100%;
+    height: 98px;
+    width: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 2px solid transparent;
+}
+
+.logoReserviaPosition {
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
 .logoReservia {
-    width: 50%;
-    margin-top: 5%;
-    margin-left: 15%;
-}
-
-.spacingHébergements {
-    width: 50%;
-}
-
-.spacingActivités {
-    width: 50%;
+    width: 120px;
+    height: 50px;
 }
 
 
@@ -110,7 +111,6 @@ main {
 
 a,
 a:link,
-a:hover,
 a:focus,
 a:visited,
 a:active {
@@ -119,6 +119,7 @@ a:active {
 }
 
 .soloLink,
+a:hover,
 .soloLink:hover,
 .soloLink:focus,
 .soloLink:visited,
@@ -129,7 +130,7 @@ a:active {
 
 .linkStyle:hover,
 .linkStyle:visited {
-    font-weight: bold;
+    text-decoration: none;
     border-top: solid 2px #0065fc;
     color: #0065fc;
 }
@@ -161,7 +162,7 @@ a:active {
 input {
     height: 55px;
     width: 250px;
-    border: #f2f2f2 solid 2px;
+    border: solid 2px #f2f2f2;
     font-weight: bold;
     padding-left: 10px;
 }
@@ -174,7 +175,6 @@ input {
 input[type=submit] {
     border: none;
     background-color: #0065fc;
-    margin-left: 10px;
     width: 150px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -188,6 +188,24 @@ input[type=submit] {
 
 .submitButton:hover {
     background-color: #0065fcd3;
+}
+
+.searchButton {
+    display: inline-block;
+    position: relative;
+}
+
+.searchIcon {
+    color: transparent;
+    font-size: 20px;
+}
+
+.searchIcon,
+.fa {
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 15px;
 }
 
 
@@ -268,21 +286,23 @@ input[type=submit] {
     width: 100%;
     height: 900px;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
+
+
+/* populaires side */
 
 .populaireDiv {
     order: 2;
     background-color: #f2f2f2;
     border-radius: 30px;
-    width: 30%;
-    display: flex;
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-
-
-/* populaires side */
 
 .littleCardContainer {
     height: 80%;
@@ -290,6 +310,7 @@ input[type=submit] {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
 }
 
 .littleCardWrapper {
@@ -299,15 +320,15 @@ input[type=submit] {
     padding: 1% 0 1% 1%;
     width: 100%;
     height: 100%;
-    margin-top: -15px;
 }
 
 .littleCard {
     border-radius: 30px 0 0 30px;
     display: flex;
-    background-size: 175%;
+    background-size: cover;
     background-position: center;
     width: 35%;
+    height: 180px;
 }
 
 .littleCardBis {
@@ -327,25 +348,17 @@ input[type=submit] {
 }
 
 .littleCardSide {
-    margin-left: 6%;
-}
-
-.littleCardSideWidth {
-    width: 250px;
-}
-
-.littleCardSideWidthBis {
-    width: 170px;
-    background-size: 100%;
+    width: 60%;
+    margin-left: 5%;
 }
 
 .populaireTitle {
     display: flex;
     align-items: center;
-    width: 80%;
-    padding-left: 5px;
-    height: 7%;
-    margin-top: 15px;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
 }
 
 .littleCardLink {
@@ -354,16 +367,13 @@ input[type=submit] {
     width: 80%;
 }
 
-.ratingIconPositioning {
-    margin-left: 60px;
-}
-
 .ratingSpan {
     font-size: 30px;
 }
 
 .H3PoplairePositioning {
     margin-top: 5%;
+    width: 96%;
 }
 
 .underH3Positioning {
@@ -382,7 +392,7 @@ input[type=submit] {
 /* hebergements side */
 
 .h1Hebergements {
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: 50px;
 }
 
@@ -393,7 +403,10 @@ input[type=submit] {
     order: 1;
     background-color: #f2f2f2;
     border-radius: 30px;
-    width: 65%;
+    flex: 2;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 15px;
 }
 
 .flexCard {
@@ -435,8 +448,8 @@ input[type=submit] {
     background-color: white;
     border-radius: 30px;
     padding: 2% 2% 2%;
-    width: 350px;
-    height: 290px;
+    width: 100%;
+    height: 100%;
 }
 
 .mediumCard {
@@ -448,14 +461,22 @@ input[type=submit] {
 }
 
 .mediumCardBottom {
-    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding-left: 25px;
+}
+
+.linkMediumCard {
+    width: 30%;
+    height: 290px;
 }
 
 .linkMediumCard:hover {
     border-radius: 30px;
     box-shadow: 15px 15px 5px 5px grey;
     background-color: transparent;
-    height: 290px;
 }
 
 .h2AfficherPlusPosition {
@@ -473,22 +494,29 @@ input[type=submit] {
 
 .h1ActivitésPosition {
     margin-left: 40px;
-    margin-top: 90px;
 }
 
 .flexSecondSection {
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    height: 650px;
-    margin-left: -15px;
+    width: 98%;
+    height: 750px;
 }
 
 .flexCardSecondSection {
     display: flex;
     justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.linkBigCard {
     width: 45%;
-    height: 500px;
+    height: 100%;
+    margin-right: 2%;
+    margin-left: 4%;
 }
 
 .bigCardWrapper {
@@ -496,9 +524,9 @@ input[type=submit] {
     flex-direction: column;
     background-color: white;
     border-radius: 30px;
-    width: 400px;
-    height: 105%;
-    box-shadow: 1px 1px 1px #f2f2f2;
+    width: 100%;
+    height: 90%;
+    box-shadow: 2px 2px 2px #f2f2f2;
 }
 
 .bigCard {
@@ -507,7 +535,6 @@ input[type=submit] {
     border-top-left-radius: 30px;
     background-size: cover;
     background-position: center;
-    background-size: 225%;
 }
 
 #firstBigCard {
@@ -522,33 +549,43 @@ input[type=submit] {
     box-shadow: grey 10px 10px 10px;
 }
 
+.secondCardSize {
+    width: 45%;
+}
+
+.linkMediumActivitésCard {
+    width: 50%;
+    height: 100%;
+}
+
+.linkMediumActivitésCardBis {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 2%;
+}
+
 .mediumCardActivitésWrapper {
     display: flex;
     flex-direction: column;
-    height: 60%;
-    width: 400px;
+    height: 50%;
+    width: 100%;
     box-shadow: 1px 1px 1px #f2f2f2;
     border-radius: 30px;
-    margin-bottom: 30px;
 }
 
 .mediumCardActivitésWrapperBis {
     display: flex;
     flex-direction: column;
-    height: 40%;
-    width: 400px;
+    height: 35%;
+    width: 100%;
     box-shadow: 1px 1px 1px #f2f2f2;
     border-radius: 30px;
+    margin-top: 40px;
 }
 
 .mediumCardActivitésWrapperThird {
-    display: flex;
-    flex-direction: column;
-    height: 50%;
-    width: 400px;
-    box-shadow: 1px 1px 1px #f2f2f2;
-    border-radius: 30px;
-    margin-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 .mediumCardActivitésWrapper:hover {
@@ -576,7 +613,6 @@ input[type=submit] {
     background-size: cover;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    background-position-y: -50px;
 }
 
 .secondCardThird {
@@ -611,12 +647,13 @@ input[type=submit] {
     background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
 }
 
-.secondCardSize {
-    width: 50%;
-}
-
 .h3ActivitésPosition {
-    margin-left: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    padding-left: 5%;
 }
 
 
@@ -626,18 +663,19 @@ input[type=submit] {
     display: flex;
     padding-left: 3%;
     background-color: #f2f2f2;
+    height: 200px;
 }
 
-.footerDivLeft {
+.footerDiv {
     width: 30%;
 }
 
-.footerDivMid {
-    width: 30%;
+.liFooterWrapper {
+    height: 130px;
 }
 
-.footerDivRight {
-    width: 30%;
+.liFooter {
+    margin-bottom: 15px
 }
 
 .footerListe:hover {

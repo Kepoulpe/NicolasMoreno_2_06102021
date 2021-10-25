@@ -12,9 +12,9 @@
 
 <body>
     <header>
-        <nav class="flexNav">
-            <div><img class="logoReservia" src="image/Reservia@3x.png" alt="Logo Reservia" /></div>
-            <div class="flexLinkX3">
+        <nav>
+            <div class="flexNav">
+                <div class="logoReserviaPosition"><img class="logoReservia" src="image/Reservia@3x.png" alt="Logo Reservia" /></div>
                 <div class="flexLinkX2">
                     <div class="linkStyle"><a class="spacingHébergements duoLink" href="#hébergements">Hébergements</a></div>
                     <div class="linkStyle"><a class=" spacingActivités duoLink" href="#activités">Activités</a></div>
@@ -37,7 +37,12 @@
                 </div>
                 <form action="#" method="get" class="flexForm">
                     <div><input type="search" placeholder="Marseille, France"></div>
-                    <div><input type="submit" value="Rechercher" class="submitButton"></div>
+                    <div>
+                        <span class="searchButton"> 
+                            <span class="searchIcon"><i class="fas fa-search"></i></span>
+                        <input type="submit" value="Rechercher" class="submitButton">
+                        </span>
+                    </div>
                 </form>
             </div>
             <div class="flexFilters">
@@ -46,7 +51,7 @@
                     <div class="filterWrapper">
                         <div class="iconX4Div">
                             <span class="iconX4">
-              <i class="fas fa-money-bill-wave fa-2xl"></i>
+              <i class="fas fa-money-bill-wave"></i>
             </span>
                         </div>
                         <h2>Economie</h2>
@@ -127,7 +132,7 @@
                     </a>
                     <a href="#" class="littleCardLink">
                         <div class="littleCardWrapper">
-                            <div id="littleCard2" class="littleCard littleCardBis littleCardSideWidth">
+                            <div id="littleCard2" class="littleCard">
                             </div>
                             <div class="littleCardSide">
                                 <h3 class="H3PoplairePositioning">Au coeur de l'eau Chambres d'hotes</h3>
@@ -154,7 +159,7 @@
                     </a>
                     <a href="#" class="littleCardLink">
                         <div class="littleCardWrapper">
-                            <div id="littleCard3" class="littleCard littleCardSideWidthBis littleCardSideW"></div>
+                            <div id="littleCard3" class="littleCard"></div>
                             <div class="littleCardSide">
                                 <h3 class="H3PoplairePositioning">Hôtel Tout bleu et Blanc</h3>
                                 <p class="underH3Positioning">Nuit à partir de 68€</p>
@@ -181,7 +186,9 @@
                 </div>
             </div>
             <div id="hébergements" class="hebergementDiv">
-                <h1 class="h1Hebergements">Hébergements à Marseille</h1>
+                <div>
+                    <h1 class="h1Hebergements">Hébergements à Marseille</h1>
+                </div>
                 <div class="flexCard topPosition">
                     <a href="#" class="linkMediumCard">
                         <div class="mediumCardWrapper">
@@ -352,56 +359,56 @@
             <h1 id="activités" class="h1ActivitésPosition">Activités à Marseille</h1>
             <div class="flexSecondSection">
                 <div class="flexCardSecondSection">
-                    <a href="#">
+                    <a href="#" class="linkBigCard">
                         <div class="bigCardWrapper">
                             <div id="firstBigCard" class="bigCard"></div>
-                            <div>
-                                <h3 class="h3ActivitésPosition">Vieux port</h3>
+                            <div class="h3ActivitésPosition">
+                                <h3>Vieux port</h3>
                             </div>
                         </div>
                     </a>
                     <div class="secondCardSize">
-                        <a href="#">
+                        <a href="#" class="linkMediumActivitésCard">
                             <div class="mediumCardActivitésWrapper">
                                 <div id="mediumCardActivités1" class="secondCard"></div>
-                                <div>
-                                    <h3 class="h3ActivitésPosition">Fort de Pomègues</h3>
+                                <div class="h3ActivitésPosition">
+                                    <h3>Fort de Pomègues</h3>
                                 </div>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="#" class="linkMediumActivitésCardBis">
                             <div class="mediumCardActivitésWrapperBis">
                                 <div id="mediumCardActivités2" class="secondCardBis"></div>
-                                <div>
-                                    <h3 class="h3ActivitésPosition">Iles du Frioul</h3>
+                                <div class="h3ActivitésPosition">
+                                    <h3>Iles du Frioul</h3>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div class="flexCardSecondSection">
-                    <a href="#">
+                    <a href="#" class="linkBigCard">
                         <div class="bigCardWrapper">
                             <div id="secondBigCard" class="bigCard"></div>
-                            <div>
-                                <h3 class="h3ActivitésPosition">Parc National des Calanques</h3>
+                            <div class="h3ActivitésPosition">
+                                <h3>Parc National des Calanques</h3>
                             </div>
                         </div>
                     </a>
                     <div class="secondCardSize">
-                        <a href="#">
-                            <div class="mediumCardActivitésWrapperThird">
-                                <div id="mediumCardActivités3" class="secondCardThird"></div>
-                                <div>
-                                    <h3 class="h3ActivitésPosition">Notre-Dame-de-la-Garde</h3>
+                        <a href="#" class="linkMediumActivitésCardBis">
+                            <div class="mediumCardActivitésWrapperBis mediumCardActivitésWrapperThird">
+                                <div id="mediumCardActivités3" class="secondCardBis"></div>
+                                <div class="h3ActivitésPosition">
+                                    <h3>Notre-Dame-de-la-Garde</h3>
                                 </div>
                             </div>
                         </a>
-                        <a href="#">
-                            <div class="mediumCardActivitésWrapperThird">
-                                <div id="mediumCardActivités4" class="secondCardFourth"></div>
-                                <div>
-                                    <h3 class="h3ActivitésPosition">Parc Longchamp</h3>
+                        <a href="#" class="linkMediumActivitésCard">
+                            <div class="mediumCardActivitésWrapper">
+                                <div id="mediumCardActivités4" class="secondCard"></div>
+                                <div class="h3ActivitésPosition">
+                                    <h3>Parc Longchamp</h3>
                                 </div>
                             </div>
                         </a>
@@ -411,26 +418,26 @@
         </section>
     </main>
     <footer class="flexFooter">
-        <div class="footerDivLeft">
+        <div class="footerDiv">
             <h3>A propos</h3>
-            <ul>
-                <li><a class="footerListe" href="#">Fonctionnement du site</a></li>
-                <li><a class="footerListe" href="#">Conditions générales de vente</a></li>
-                <li><a class="footerListe" href="#">Données et confidentialité</a></li>
+            <ul class="liFooterWrapper">
+                <li class="liFooter"><a class="footerListe" href="#">Fonctionnement du site</a></li>
+                <li class="liFooter"><a class="footerListe" href="#">Conditions générales de vente</a></li>
+                <li class="liFooter"><a class="footerListe" href="#">Données et confidentialité</a></li>
             </ul>
         </div>
-        <div class="footerDivMid">
+        <div class="footerDiv">
             <h3>Nos hébergements</h3>
-            <ul>
-                <li><a class="footerListe" href="#">Charte de qualité</a></li>
-                <li><a class="footerListe" href="#">Soumettre votre hôtel</a></li>
+            <ul class="liFooterWrapper">
+                <li class="liFooter"><a class="footerListe" href="#">Charte de qualité</a></li>
+                <li class="liFooter"><a class="footerListe" href="#">Soumettre votre hôtel</a></li>
             </ul>
         </div>
-        <div class="footerDivRight">
+        <div class="footerDiv">
             <h3>Assistance</h3>
-            <ul>
-                <li><a class="footerListe" href="#">Centre d'aide</a></li>
-                <li><a class="footerListe" href="#">Nous contacter</a></li>
+            <ul class="liFooterWrapper">
+                <li class="liFooter"><a class="footerListe" href="#">Centre d'aide</a></li>
+                <li class="liFooter"><a class="footerListe" href="#">Nous contacter</a></li>
             </ul>
         </div>
     </footer>

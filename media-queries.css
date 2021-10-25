@@ -1,171 +1,283 @@
-                        /* media queries for tablets (992 and down)  */
-                        
-                        @media screen and (max-width: 992px) {
-                            .flexLinkX3 {
-                                width: 100%;
-                            }
-                            .flex .inputSection {
-                                display: flex;
-                                flex-direction: column;
-                                align-items: center;
-                            }
-                            .textInputSection {
-                                display: flex;
-                                flex-direction: column;
-                                align-items: center;
-                                width: 80%;
-                                text-align: center;
-                            }
-                            .underTitlePosition {
-                                margin-top: -15px;
-                                margin-bottom: 40px;
-                            }
-                            /* filters */
-                            .flexFilters {
-                                flex-direction: column;
-                                align-items: flex-start;
-                            }
-                            .filterWrapperX2 {
-                                margin-left: -40px;
-                                margin-bottom: 20px;
-                            }
-                            .filterWrapperBis {
-                                margin-left: 0px;
-                                margin-bottom: 20px;
-                            }
-                            .activitésSection {
-                                text-align: center;
-                            }
-                            .flexFooter {
-                                padding-left: 8%;
-                            }
-                            /* first section */
-                            .littleCardSideWidthBis {
-                                width: 180px;
-                            }
-                            .ratingStarsPositioningBis {
-                                margin-top: 75px;
-                            }
-                            .firstSection {
-                                flex-direction: column;
-                                align-items: center;
-                                height: 100%;
-                            }
-                            .populaireDiv {
-                                order: 1;
-                                width: 70%;
-                                height: 870px;
-                            }
-                            .populaireTitle {
-                                padding-left: 85px;
-                            }
-                            .hebergementDiv {
-                                background-color: transparent;
-                                align-items: center;
-                            }
-                            .topPosition {
-                                margin-top: 0px;
-                            }
-                            .flexCard {
-                                flex-direction: column;
-                                align-items: center;
-                            }
-                            .mediumCardWrapper {
-                                margin-bottom: 30px;
-                            }
-                            /* second section */
-                            .h1ActivitésPosition {
-                                margin-left: -60px;
-                            }
-                            .flexSecondSection {
-                                flex-direction: column;
-                                height: 100%;
-                                align-items: center;
-                                justify-content: initial;
-                                text-align: initial;
-                                margin-left: 30px;
-                            }
-                            .flexCardSecondSection {
-                                flex-direction: column;
-                                height: initial;
-                            }
-                            .mediumCardWrapper {
-                                height: 290px;
-                                width: 400px;
-                                box-shadow: 1px 1px 1px #f2f2f2;
-                            }
-                            .bigCardWrapper {
-                                height: 290px;
-                                margin-bottom: 40px;
-                            }
-                            .mediumCardActivitésWrapper {
-                                height: 290px;
-                                margin-bottom: 40px;
-                            }
-                            .mediumCardActivitésWrapperBis {
-                                height: 290px;
-                                margin-bottom: 40px;
-                            }
-                            .mediumCardActivitésWrapperThird {
-                                height: 290px;
-                                margin-bottom: 40px;
-                            }
-                        }
-                        /* media queries for telephones (768 and down) */
-                        
-                        @media screen and (max-width: 768px) {
-                            main {
-                                width: 95%;
-                            }
-                            /* header */
-                            .logoReservia {
-                                margin-left: initial;
-                                width: 100%;
-                                margin-bottom: 40px;
-                            }
-                            .flexNav {
-                                width: 100%;
-                            }
-                            .flexLinkX3 {
-                                flex-direction: row;
-                                width: 100%;
-                                flex-wrap: wrap;
-                            }
-                            .flexLinkX2 {
-                                font-size: 30px;
-                                order: 1;
-                                width: 100%;
-                            }
-                            .flexLinkX1 {
-                                width: 100%;
-                                font-size: 30px;
-                            }
-                            .spacingHébergements {
-                                margin-left: 120px;
-                            }
-                            .spacingActivités {
-                                margin-left: 40px;
-                            }
-                            .linkStyle:hover {
-                                color: #0065fc;
-                                font-weight: bold;
-                                border-top: initial;
-                                border-bottom: solid 2px #0065fc;
-                            }
-                            /* first section */
-                            .populaireDiv {
-                                border-radius: initial;
-                                width: 108%;
-                                height: 1000px;
-                                margin-left: 2px;
-                            }
-                            .flexFooter {
-                                flex-direction: column;
-                                align-items: center;
-                                width: 92%;
-                                padding-left: -10%;
-                            }
-                            ul {
-                                margin-left: -15%;
-                            }
-                        }
+            /* media queries for tablets (992 and down)  */
+            
+            @media screen and (max-width: 992px) {
+                nav {
+                    width: 100%;
+                }
+                .flexNav {
+                    justify-content: initial;
+                }
+                .flexLinkX2 {
+                    margin-left: 40%;
+                }
+                .inputSection {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-left: initial;
+                }
+                .textInputSection {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 80%;
+                    text-align: center;
+                }
+                .underTitlePosition {
+                    margin-top: -15px;
+                    margin-bottom: 40px;
+                }
+                /* filters */
+                .flexFilters {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+                .filterWrapperX2 {
+                    margin-left: -40px;
+                    margin-bottom: 20px;
+                }
+                .filterWrapperBis {
+                    margin-left: 0px;
+                    margin-bottom: 20px;
+                }
+                .activitésSection {
+                    text-align: center;
+                }
+                .flexFooter {
+                    padding-left: 8%;
+                }
+                /* first section */
+                .populaireDiv {
+                    order: 1;
+                    width: 70%;
+                }
+                .populaireTitle {
+                    padding-left: 85px;
+                }
+                .littleCardContainer {
+                    height: 82%;
+                }
+                .littleCardSideWidthBis {
+                    width: 180px;
+                }
+                .ratingStarsPositioningBis {
+                    margin-top: 75px;
+                }
+                .firstSection {
+                    flex-direction: column;
+                    align-items: center;
+                    height: 100%;
+                }
+                .hebergementDiv {
+                    margin-top: 90px;
+                    width: 70%;
+                    align-items: center;
+                }
+                .topPosition {
+                    margin-top: 0px;
+                }
+                .flexCard {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .linkMediumCard {
+                    width: 100%;
+                    height: 259px;
+                    margin-bottom: 30px;
+                }
+                .mediumCardWrapper {
+                    margin-bottom: 30px;
+                    height: 250px;
+                    width: 400px;
+                }
+                /* second section */
+                .h1ActivitésPosition {
+                    margin-left: initial;
+                    margin-right: initial;
+                }
+                .flexSecondSection {
+                    flex-direction: column;
+                    height: 100%;
+                    align-items: center;
+                    justify-content: initial;
+                    text-align: initial;
+                    width: 100%;
+                }
+                .flexCardSecondSection {
+                    flex-direction: column;
+                    height: initial;
+                    width: 100%;
+                    align-items: center;
+                }
+                .bigCardWrapper {
+                    height: 290px;
+                    margin-bottom: 40px;
+                }
+                .bigCard {
+                    margin-left: initial;
+                    margin-right: initial;
+                }
+                .mediumCardActivitésWrapper {
+                    height: 290px;
+                    margin-bottom: 40px;
+                }
+                .mediumCardActivitésWrapperBis {
+                    height: 290px;
+                    margin-bottom: 40px;
+                }
+                .mediumCardActivitésWrapperThird {
+                    height: 290px;
+                    margin-bottom: 40px;
+                }
+            }
+            /* media queries for telephones (768 and down) */
+            
+            @media screen and (max-width: 768px) {
+                main {
+                    width: 98%;
+                    padding-left: initial;
+                }
+                /* nav */
+                nav {
+                    height: auto;
+                }
+                .flexNav {
+                    flex-direction: row;
+                    width: 100%;
+                    flex-wrap: wrap;
+                    height: auto;
+                }
+                .flexLinkX3 {
+                    flex-direction: row;
+                    width: 100%;
+                    flex-wrap: wrap;
+                }
+                .flexLinkX2 {
+                    order: 1;
+                    width: 100%;
+                    margin-left: 0;
+                }
+                .flexLinkX1 {
+                    margin-left: 60%;
+                    font-size: 25px;
+                }
+                .linkStyle {
+                    width: 50%;
+                    text-align: center;
+                    border-bottom: 5px solid #f2f2f2;
+                }
+                .linkStyle:hover {
+                    color: #0065fc;
+                    font-weight: bold;
+                    border-top: initial;
+                    border-bottom: solid 5px #0065fc;
+                }
+                /* input section */
+                .inputSection {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .underTitlePosition {
+                    font-size: 25px;
+                    width: 490px;
+                }
+                .markerWrapper {
+                    margin-right: 0px;
+                }
+                input {
+                    border-right: initial;
+                    width: 305px;
+                }
+                input[type=submit] {
+                    color: transparent;
+                    width: 35px;
+                    height: 30px;
+                    border-radius: 15px;
+                    border-top: 2px #f2f2f2;
+                }
+                .searchIcon {
+                    color: white;
+                    border-radius: 15px;
+                    padding-left: 20px;
+                    background-color: #0065fc;
+                    height: 45px;
+                    padding-top: 20px;
+                    width: 40px;
+                    top: -5px;
+                    left: -15px;
+                    order: 2;
+                }
+                /*first section */
+                .populaireDiv {
+                    border-radius: initial;
+                    width: 108%;
+                    height: 1000px;
+                    margin-left: 2px;
+                }
+                .ratingIconPositioning {
+                    margin-left: 145px;
+                }
+                .hebergementDiv {
+                    background-color: transparent;
+                }
+                .h1hebergements {
+                    width: 550px;
+                }
+                .linkMediumCard {
+                    margin-bottom: 90px;
+                }
+                .mediumCardWrapper {
+                    width: 525px;
+                    height: 330px;
+                    box-shadow: 2px 2px 2px #f2f2f2;
+                }
+                .underH3Positioning {
+                    margin-top: -4%;
+                }
+                .h2AfficherPlusPosition {
+                    margin-left: initial;
+                    margin-right: 360px;
+                }
+                /* second section */
+                .flexCardSecondSection {
+                    width: 100%;
+                    align-items: center;
+                    padding-left: initial;
+                    padding-right: initial;
+                }
+                .linkBigCard {
+                    width: 525px;
+                    height: 330px;
+                    margin-bottom: 35px;
+                    margin-left: initial;
+                    margin-right: initial;
+                }
+                .bigCardWrapper {
+                    width: 525px;
+                    height: 330px;
+                }
+                .secondCardSize {
+                    width: 68%;
+                }
+                .mediumCardActivitésWrapper {
+                    width: 525px;
+                    height: 330px;
+                    margin-left: initial;
+                    margin-right: initial;
+                }
+                .mediumCardActivitésWrapperBis {
+                    width: 525px;
+                    height: 330px;
+                }
+                .flexFooter {
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    padding-left: initial;
+                }
+                ul {
+                    margin-left: -15%;
+                }
+            }
