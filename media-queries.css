@@ -5,7 +5,7 @@
         width: 100%;
     }
     .flexNav {
-        justify-content: 0;
+        justify-content: initial;
     }
     .inputSection {
         display: flex;
@@ -106,8 +106,8 @@
         flex-direction: column;
         height: 100%;
         align-items: center;
-        justify-content: 0;
-        text-align: 0;
+        justify-content: initial;
+        text-align: initial;
         width: 100%;
     }
     .flexCardSecondSection {
