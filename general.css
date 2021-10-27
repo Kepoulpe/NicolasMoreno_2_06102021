@@ -44,69 +44,6 @@ main {
 }
 
 
-/* nav */
-
-nav {
-    height: 100px;
-}
-
-.flexNav {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    justify-content: space-between;
-}
-
-.flexSplitNav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-}
-
-.flexLinkX3 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-}
-
-.flexLinkX2 {
-    display: flex;
-    margin-left: 70%;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.flexLinkX1 {
-    width: 140px;
-    height: 98px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.linkStyle {
-    height: 98px;
-    width: 140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 2px solid transparent;
-}
-
-.logoReserviaPosition {
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-.logoReservia {
-    width: 120px;
-    height: 50px;
-}
-
-
 /* reset links styles */
 
 a,
@@ -136,11 +73,71 @@ a:hover,
 }
 
 
-/* header */
+/* nav */
+
+nav {
+    height: 100px;
+}
+
+.flexNav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.logoReserviaPosition {
+    margin-top: 10px;
+    margin-left: 3%;
+    width: 10%;
+}
+
+.logoReservia {
+    width: 120px;
+    height: 50px;
+}
+
+.flexLinkX2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    align-items: center;
+}
+
+.flexLinkX1 {
+    width: 140px;
+    height: 98px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.linkStyle {
+    height: 98px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid transparent;
+}
+
+
+/* input section */
+
+.inputSection {
+    width: 100%;
+}
+
+.textInputSection {
+    margin-left: 2%;
+}
 
 .flexInput {
     display: flex;
     align-items: center;
+    width: 98%;
+    margin-left: 2%;
 }
 
 .markerWrapper {
@@ -152,7 +149,6 @@ a:hover,
     background-color: #f2f2f2;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-right: 10px;
 }
 
 .marker {
@@ -208,47 +204,86 @@ input[type=submit] {
     top: 15px;
 }
 
-
-/* filters */
-
-.inputSection {
-    padding-left: 3%;
-}
-
 .flexFilters {
     display: flex;
     margin-top: 2%;
+    margin-left: 2%;
+    width: 70%;
+    justify-content: space-between;
 }
 
-.iconX4Div {
-    background-color: #deebff;
-    border-radius: 100%;
-    height: 60px;
-    width: 60px;
+.filterWrapperX2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 30px;
-    margin-left: -5px;
-}
-
-.iconX4 {
-    color: #0065fc;
-    font-size: 30px;
+    width: 40%;
+    justify-content: space-between;
 }
 
 .filterWrapper {
     display: flex;
     border: solid 2px #f2f2f2;
-    margin-left: 40px;
     align-items: center;
     border-radius: 30px;
     height: 56px;
-    padding-right: 40px;
+    width: 50%;
 }
 
-.filterWrapperX2 {
+.filterWrapperBis {
+    width: 40%;
+}
+
+.filterWrapperThird {
+    width: 19%;
+}
+
+.filterWrapperFourth {
+    width: 25%;
+}
+
+.iconDiv {
+    background-color: #deebff;
+    border-radius: 100%;
+    height: 60px;
+    width: 25%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -5px;
+}
+
+.iconDivBis {
+    width: 30%;
+}
+
+.icinDivThird {
+    width: 25%;
+}
+
+.iconDivFourth {
+    width: 20%;
+}
+
+.iconX4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #0065fc;
+    font-size: 100%;
+}
+
+.centerTextFilters {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.centerTextFiltersBis {
+    width: 70%;
+}
+
+.centerTextFiltersThird {
+    width: 75%;
 }
 
 .underFilters {
@@ -313,7 +348,8 @@ input[type=submit] {
 }
 
 .littleCardLink {
-    width: 90%;
+    width: 79%;
+    height: 25%;
 }
 
 .littleCardWrapper {
