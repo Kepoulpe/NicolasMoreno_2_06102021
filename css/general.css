@@ -1,4 +1,4 @@
-/* general */
+/* general design for 1440px desktop screen */
 
 @font-face {
     font-family: 'raleway';
@@ -15,20 +15,15 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 24px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 h3 {
-    font-size: 25px;
-}
-
-ul {
-    list-style: none;
-    margin-left: -7%;
+    font-size: 17px;
 }
 
 main {
@@ -204,87 +199,72 @@ input[type=submit] {
     top: 15px;
 }
 
+
+/* filters */
+
 .flexFilters {
     display: flex;
-    margin-top: 2%;
-    margin-left: 2%;
-    width: 70%;
-    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.filterWrapperX2 {
-    display: flex;
-    width: 40%;
-    justify-content: space-between;
+.filterTitle {
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .filterWrapper {
     display: flex;
-    border: solid 2px #f2f2f2;
-    align-items: center;
+}
+
+.filterDiv {
+    height: 50px;
+    border: 2px solid #f2f2f2;
     border-radius: 30px;
-    height: 56px;
-    width: 50%;
-}
-
-.filterWrapperBis {
-    width: 40%;
-}
-
-.filterWrapperThird {
-    width: 19%;
-}
-
-.filterWrapperFourth {
-    width: 25%;
-}
-
-.iconDiv {
-    background-color: #deebff;
-    border-radius: 100%;
-    height: 60px;
-    width: 25%;
+    margin-right: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-left: -5px;
-}
-
-.iconDivBis {
-    width: 30%;
-}
-
-.icinDivThird {
-    width: 25%;
-}
-
-.iconDivFourth {
-    width: 20%;
 }
 
 .iconX4 {
+    color: #0065fc;
+    background-color: #deebff;
+    width: 52px;
+    height: 52px;
+    border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
-    color: #0065fc;
-    font-size: 100%;
+    margin-left: -2px;
 }
 
-.centerTextFilters {
-    width: 80%;
+.resetMargin {
+    margin-right: 0;
+}
+
+.textFilters {
     display: flex;
+    align-items: center;
     justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 10px;
 }
 
-.centerTextFiltersBis {
-    width: 70%;
+.filterDiv:hover {
+    background-color: #f2f2f2;
 }
 
-.centerTextFiltersThird {
-    width: 75%;
+.filterDiv:hover>.iconX4 {
+    background-color: #0065fc;
+    color: #deebff;
 }
+
+
+/* text under filters */
 
 .underFilters {
     display: flex;
@@ -307,11 +287,7 @@ input[type=submit] {
     border-radius: 100%;
     width: 25px;
     height: 25px;
-    margin-right: 30px;
-}
-
-.filterWrapper:hover {
-    background-color: #f2f2f2;
+    margin-right: 10px;
 }
 
 
@@ -320,9 +296,13 @@ input[type=submit] {
 .firstSection {
     display: flex;
     width: 100%;
-    height: 900px;
+    height: 650px;
     justify-content: space-around;
     margin-bottom: 100px;
+}
+
+.ratingStarsSize {
+    font-size: 12px;
 }
 
 
@@ -331,13 +311,17 @@ input[type=submit] {
 .populaireDiv {
     order: 2;
     background-color: #f2f2f2;
-    border-radius: 30px;
+    border-radius: 20px;
     flex: 1;
     margin-left: 20px;
     margin-right: 20px;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.populaireTitle {
+    text-align: center
 }
 
 .littleCardContainer {
@@ -349,46 +333,46 @@ input[type=submit] {
 }
 
 .littleCardLink {
-    width: 79%;
-    height: 25%;
+    width: 80%;
+    height: 28%;
 }
 
 .littleCardWrapper {
     display: flex;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 1% 0 1% 1%;
     width: 100%;
     height: 100%;
 }
 
 .littleCard {
-    border-radius: 30px 0 0 30px;
+    border-radius: 20px 0 0 20px;
     display: flex;
     background-size: cover;
     background-position: center;
     width: 35%;
 }
 
-.littleCardBis {
-    background-size: 160%;
-}
-
 #littleCard {
-    background-image: url(images/hebergements/4_small/hotel-le-soleil.jpg);
+    background-image: url(/images/hebergements/4_small/hotel-le-soleil.jpg);
 }
 
 #littleCard2 {
-    background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-image: url(/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
 }
 
 #littleCard3 {
-    background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-image: url(/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
 }
 
 .littleCardSide {
-    width: 60%;
+    width: 50%;
     margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
 }
 
 .populaireTitle {
@@ -406,16 +390,13 @@ input[type=submit] {
 }
 
 .H3PoplairePositioning {
-    margin-top: 5%;
+    margin-top: 1%;
     width: 96%;
 }
 
 .underH3Positioning {
-    margin-top: -6%;
-}
-
-.ratingStarsPositioning {
-    margin-top: 15%;
+    font-size: 14px;
+    margin-top: -15%;
 }
 
 .littleCardWrapper:hover {
@@ -431,11 +412,11 @@ input[type=submit] {
 
 .hebergementDiv {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
     order: 1;
     background-color: #f2f2f2;
-    border-radius: 30px;
+    border-radius: 20px;
     flex: 2;
     margin-left: 20px;
     margin-right: 20px;
@@ -445,50 +426,52 @@ input[type=submit] {
 .flexCard {
     display: flex;
     justify-content: space-around;
-}
-
-.topPosition {
-    margin-top: -50px;
+    margin-bottom: 20px;
 }
 
 #mediumCard {
-    background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-image: url(/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
 }
 
 #mediumCard2 {
-    background-image: url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-image: url(/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
 }
 
 #mediumCard3 {
-    background-image: url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-image: url(/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
 }
 
 #mediumCard4 {
-    background-image: url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-image: url(/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
 }
 
 #mediumCard5 {
-    background-image: url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-image: url(/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
 }
 
 #mediumCard6 {
-    background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-image: url(/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+}
+
+.linkMediumCard {
+    width: 28%;
+    height: auto;
 }
 
 .mediumCardWrapper {
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 25px;
     padding: 2% 2% 2%;
     width: 100%;
     height: 100%;
 }
 
 .mediumCard {
-    height: 65%;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
+    height: 120px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
     background-size: cover;
     background-position: center;
 }
@@ -498,16 +481,16 @@ input[type=submit] {
     flex-direction: column;
     justify-content: center;
     width: 90%;
-    padding-left: 25px;
+    padding-left: 15px;
 }
 
-.linkMediumCard {
-    width: 30%;
-    height: 290px;
+.underH3HebergementPositioning {
+    font-size: 14px;
+    margin-top: -5%;
 }
 
 .linkMediumCard:hover {
-    border-radius: 30px;
+    border-radius: 25px;
     box-shadow: 15px 15px 5px 5px grey;
     background-color: transparent;
 }
@@ -533,7 +516,7 @@ input[type=submit] {
     display: flex;
     justify-content: space-around;
     width: 98%;
-    height: 750px;
+    height: 525px;
 }
 
 .flexCardSecondSection {
@@ -571,11 +554,11 @@ input[type=submit] {
 }
 
 #firstBigCard {
-    background-image: url(images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-image: url(/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
 }
 
 #secondBigCard {
-    background-image: url(images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-image: url(/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
 }
 
 .bigCardWrapper:hover {
@@ -617,6 +600,13 @@ input[type=submit] {
 }
 
 .mediumCardActivitésWrapperThird {
+    display: flex;
+    flex-direction: column;
+    height: 42%;
+    width: 100%;
+    box-shadow: 1px 1px 1px #f2f2f2;
+    border-radius: 30px;
+    margin-top: 40px;
     margin-top: 0;
     margin-bottom: 40px;
 }
@@ -665,19 +655,19 @@ input[type=submit] {
 }
 
 #mediumCardActivités1 {
-    background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-image: url(/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
 }
 
 #mediumCardActivités2 {
-    background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-image: url(/images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
 }
 
 #mediumCardActivités3 {
-    background-image: url(images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-image: url(/images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg);
 }
 
 #mediumCardActivités4 {
-    background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-image: url(/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
 }
 
 .h3ActivitésPosition {
@@ -700,10 +690,16 @@ input[type=submit] {
 
 .footerDiv {
     width: 30%;
+    margin-right: 0px;
 }
 
 .liFooterWrapper {
     height: 130px;
+}
+
+ul {
+    list-style: none;
+    margin-left: -40px;
 }
 
 .liFooter {

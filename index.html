@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/c194efece2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
@@ -26,7 +26,7 @@
     <main>
         <section class="inputSection">
             <div class="textInputSection">
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <h1 class="firstTitleSize">Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p class="underTitlePosition">En plein centre ville ou en pleine nature</p>
             </div>
             <div class="flexInput">
@@ -46,62 +46,37 @@
                 </form>
             </div>
             <div class="flexFilters">
-                <h2>Filtres</h2>
-                <div class="filterWrapperX2">
-                    <div class="filterWrapper">
-                        <div class="iconDiv">
-                            <span class="iconX4">
-              <i class="fas fa-money-bill-wave fa-lg"></i>
-            </span>
-                        </div>
-                        <div class="centerTextFilters">
-                            <h2>Economique</h2>
-                        </div>
+                <h2 class="filterTitle">Filtres</h2>
+                <div class="filterWrapper">
+                    <div class="filterDiv">
+                        <span class="iconX4"><i class="fas fa-money-bill-wave fa-lg"></i></span>
+                        <div class="textFilters">Economique</div>
                     </div>
-                    <div class="filterWrapper filterWrapperBis">
-                        <div class="iconDiv iconDivBis">
-                            <span class="iconX4">
-              <i class="fas fa-child fa-lg"></i>
-            </span>
-                        </div>
-                        <div class="centerTextFilters centerTextFiltersBis">
-                            <h2>Familial</h2>
-                        </div>
+                    <div class="filterDiv">
+                        <span class="iconX4"><i class="fas fa-child fa-lg"></i></span>
+                        <div class="textFilters">Familial</div>
                     </div>
-                </div>
-                <div class="filterWrapper filterWrapperThird">
-                    <div class="iconDiv iconDivThird">
-                        <span class="iconX4">
-              <i class="fas fa-solid fa-heart fa-lg"></i>
-            </span>
+                    <div class="filterDiv">
+                        <span class="iconX4"><i class="fas fa-solid fa-heart fa-lg"></i></span>
+                        <div class="textFilters">Romantique</div>
                     </div>
-                    <div class="centerTextFilters centerTextFiltersThrird">
-                        <h2>Romantique</h2>
-                    </div>
-                </div>
-                <div class="filterWrapper filterWrapperFourth">
-                    <div class="iconDiv iconDivFourth">
-                        <span class="iconX4">
-              <i class="fas fa-dog fa-lg"></i>
-            </span>
-                    </div>
-                    <div class="centerTextFilters">
-                        <h2>Animaux Autorisés</h2>
+                    <div class="filterDiv resetMargin">
+                        <span class="iconX4"><i class="fas fa-dog fa-lg"></i></span>
+                        <div class="textFilters">Animaux Autorisés</div>
                     </div>
                 </div>
             </div>
             <div class="underFilters">
-                <div class="infoIconWrapper">
-                    <span class="infoIcon">
-            <i class="fas fa-solid fa-info"></i>
-          </span>
+                <div class="infoIconWrapper"><span class="infoIcon"><i class="fas fa-solid fa-info"></i></span>
                 </div>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
+
+
         </section>
         <section class="firstSection">
             <div class="populaireDiv">
-                <h1 style="text-align:center;">Les plus populaires &nbsp;&nbsp;<span class="ratingSpan"><i class="fas fa-chart-line"></i></span></h1>
+                <h1 class="populaireTitle">Les plus populaires &nbsp;&nbsp;<span class="ratingSpan"><i class="fas fa-chart-line"></i></span></h1>
                 <div class="littleCardContainer">
                     <a href="#" class="littleCardLink">
                         <div class="littleCardWrapper">
@@ -109,7 +84,7 @@
                             <div class="littleCardSide">
                                 <h3 class="H3PoplairePositioning">Hôtel Le soleil du matin</h3>
                                 <p class="underH3Positioning">Nuit à partir de 128€</p>
-                                <div class="ratingStarsPositioning ratingStarsPositioningBis">
+                                <div class="ratingStarsPositioning ratingStarsSize">
                                     <span class="ratingStars">
                   <i class="fas fa-star"></i>
                 </span>
@@ -136,7 +111,7 @@
                             <div class="littleCardSide">
                                 <h3 class="H3PoplairePositioning">Au coeur de l'eau Chambres d'hotes</h3>
                                 <p class="underH3Positioning">Nuit à partir de 71€</p>
-                                <div class="ratingStarsPositioning">
+                                <div class="ratingStarsPositioning ratingStarsSize">
                                     <span class="ratingStars">
                   <i class="fas fa-star"></i>
                 </span>
@@ -162,7 +137,7 @@
                             <div class="littleCardSide">
                                 <h3 class="H3PoplairePositioning">Hôtel Tout bleu et Blanc</h3>
                                 <p class="underH3Positioning">Nuit à partir de 68€</p>
-                                <div class="ratingStarsPositioning ratingStarsPositioningBis">
+                                <div class="ratingStarsPositioning ratingStarsSize">
                                     <span class="ratingStars">
                   <i class="fas fa-star"></i>
                 </span>
@@ -192,9 +167,9 @@
                             <div id="mediumCard" class="mediumCard">
                             </div>
                             <div class="mediumCardBottom">
-                                <h3>Auberge la Cannebière</h3>
-                                <p class="underH3Positioning">Nuit à partir de 25€</p>
-                                <div>
+                                <h3 class="h3Hebergement">Auberge la Cannebière</h3>
+                                <p class="underH3HebergementPositioning">Nuit à partir de 25€</p>
+                                <div class="ratingStarsSize">
                                     <span class="ratingStars">
                     <i class="fas fa-star"></i>
                   </span>
@@ -219,9 +194,9 @@
                             <div id="mediumCard2" class="mediumCard">
                             </div>
                             <div class="mediumCardBottom">
-                                <h3>Hôtel du port</h3>
-                                <p class="underH3Positioning">Nuit à partir de 52€</p>
-                                <div>
+                                <h3 class="h3Hebergement">Hôtel du port</h3>
+                                <p class="underH3HebergementPositioning">Nuit à partir de 52€</p>
+                                <div class="ratingStarsSize">
                                     <span class="ratingStars">
                     <i class="fas fa-star"></i>
                   </span>
@@ -246,9 +221,9 @@
                             <div id="mediumCard3" class="mediumCard">
                             </div>
                             <div class="mediumCardBottom">
-                                <h3>Hôtel les mouettes</h3>
-                                <p class="underH3Positioning">Nuit à partir de 76€</p>
-                                <div>
+                                <h3 class="h3Hebergement">Hôtel les mouettes</h3>
+                                <p class="underH3HebergementPositioning">Nuit à partir de 76€</p>
+                                <div class="ratingStarsSize">
                                     <span class="ratingStars">
                     <i class="fas fa-star"></i>
                   </span>
@@ -274,9 +249,9 @@
                         <div class="mediumCardWrapper">
                             <div id="mediumCard4" class="mediumCard"></div>
                             <div class="mediumCardBottom">
-                                <h3>Hôtel de la mer</h3>
-                                <p class="underH3Positioning">Nuit à partir de 46€</p>
-                                <div>
+                                <h3 class="h3Hebergement">Hôtel de la mer</h3>
+                                <p class="underH3HebergementPositioning">Nuit à partir de 46€</p>
+                                <div class="ratingStarsSize">
                                     <span class="ratingStars">
                     <i class="fas fa-star"></i>
                   </span>
@@ -300,9 +275,9 @@
                         <div class="mediumCardWrapper">
                             <div id="mediumCard5" class="mediumCard"></div>
                             <div class="mediumCardBottom">
-                                <h3>Auberge Le Panier</h3>
-                                <p class="underH3Positioning">Nuit à partir de 23€</p>
-                                <div>
+                                <h3 class="h3Hebergement">Auberge Le Panier</h3>
+                                <p class="underH3HebergementPositioning">Nuit à partir de 23€</p>
+                                <div class="ratingStarsSize">
                                     <span class="ratingStars">
                     <i class="fas fa-star"></i>
                   </span>
@@ -326,9 +301,9 @@
                         <div class="mediumCardWrapper">
                             <div id="mediumCard6" class="mediumCard"></div>
                             <div class="mediumCardBottom">
-                                <h3>Hôtel chez Amina</h3>
-                                <p class="underH3Positioning">Nuit à partir de 96€</p>
-                                <div>
+                                <h3 class="h3Hebergement">Hôtel chez Amina</h3>
+                                <p class="underH3HebergementPositioning">Nuit à partir de 96€</p>
+                                <div class="ratingStarsSize">
                                     <span class="ratingStars">
                     <i class="fas fa-star"></i>
                   </span>
@@ -394,7 +369,7 @@
                     </a>
                     <div class="secondCardSize ">
                         <a href="# " class="linkMediumActivitésCardBis ">
-                            <div class="mediumCardActivitésWrapperBis mediumCardActivitésWrapperThird ">
+                            <div class="mediumCardActivitésWrapperThird">
                                 <div id="mediumCardActivités3" class="secondCardBis "></div>
                                 <div class="h3ActivitésPosition ">
                                     <h3>Notre-Dame-de-la-Garde</h3>
@@ -402,7 +377,7 @@
                             </div>
                         </a>
                         <a href="#" class="linkMediumActivitésCard ">
-                            <div class="mediumCardActivitésWrapper">
+                            <div class="mediumCardActivitésWrapperThird">
                                 <div id="mediumCardActivités4" class="secondCard"></div>
                                 <div class="h3ActivitésPosition">
                                     <h3>Parc Longchamp</h3>
@@ -417,25 +392,25 @@
     <footer class="flexFooter">
         <div class="footerDiv">
             <h3>A propos</h3>
-            <ul class="liFooterWrapper ">
+            <ul class="liFooterWrapper">
                 <li class="liFooter "><a class="footerListe " href="# ">Fonctionnement du site</a></li>
                 <li class="liFooter "><a class="footerListe " href="# ">Conditions générales de vente</a></li>
                 <li class="liFooter "><a class="footerListe " href="# ">Données et confidentialité</a></li>
             </ul>
         </div>
-        <div class="footerDiv ">
+        <div class="footerDiv">
             <h3>Nos hébergements</h3>
-            <ul class="liFooterWrapper ">
+            <ul class="liFooterWrapper">
                 <li class="liFooter "><a class="footerListe " href="# ">Charte de qualité</a></li>
                 <li class="liFooter "><a class="footerListe " href="# ">Soumettre votre hôtel</a></li>
             </ul>
         </div>
-        <div class="footerDiv ">
+        <div class="footerDiv footerDivPhone">
             <h3>Assistance</h3>
-            <ul class="liFooterWrapper ">
-                <li class="liFooter "><a class="footerListe " href="# ">Centre d'aide</a></li>
-                <li class="liFooter "><a class="footerListe " href="# ">Nous contacter</a></li>
+            <ul class="liFooterWrapper">
+                <li class="liFooter"><a class="footerListe " href="# ">Centre d'aide</a></li>
+                <li class="liFooter"><a class="footerListe " href="# ">Nous contacter</a></li>
             </ul>
         </div>
     </footer>
-</body>
+    </bod

@@ -1,0 +1,220 @@
+                                            @media screen and (max-width: 768px) {
+                                                main {
+                                                    width: 100%;
+                                                    padding-left: 0;
+                                                }
+                                                /* nav */
+                                                nav {
+                                                    height: auto;
+                                                }
+                                                .flexNav {
+                                                    flex-direction: row;
+                                                    width: 100%;
+                                                    flex-wrap: wrap;
+                                                    height: auto;
+                                                }
+                                                .flexLinkX3 {
+                                                    flex-direction: row;
+                                                    width: 100%;
+                                                    flex-wrap: wrap;
+                                                }
+                                                .flexLinkX2 {
+                                                    order: 1;
+                                                    width: 100%;
+                                                    margin-left: 0;
+                                                }
+                                                .flexLinkX1 {
+                                                    font-size: 18px;
+                                                    margin-left: 60%;
+                                                    height: 20%;
+                                                    width: 20%;
+                                                }
+                                                .linkStyle {
+                                                    width: 50%;
+                                                    text-align: center;
+                                                    border-bottom: 5px solid #f2f2f2;
+                                                }
+                                                .linkStyle:hover {
+                                                    color: #0065fc;
+                                                    font-weight: bold;
+                                                    border-top: initial;
+                                                    border-bottom: solid 5px #0065fc;
+                                                }
+                                                /* input section */
+                                                h2 {
+                                                    font-size: 100%;
+                                                }
+                                                .inputSection {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    align-items: center;
+                                                }
+                                                .firstTitleSize {
+                                                    width: 320px;
+                                                }
+                                                .underTitlePosition {
+                                                    font-size: 15px;
+                                                    width: 100%;
+                                                }
+                                                .markerWrapper {
+                                                    margin-right: 0px;
+                                                }
+                                                .flexInput {
+                                                    margin-left: 0;
+                                                }
+                                                input {
+                                                    border-right: initial;
+                                                    width: 275px;
+                                                }
+                                                input[type=submit] {
+                                                    color: transparent;
+                                                    width: 35px;
+                                                    height: 30px;
+                                                    border-radius: 15px;
+                                                    border-top: 2px #f2f2f2;
+                                                }
+                                                .searchIcon {
+                                                    color: white;
+                                                    border-radius: 15px;
+                                                    padding-left: 16px;
+                                                    background-color: #0065fc;
+                                                    height: 38px;
+                                                    padding-top: 16px;
+                                                    width: 100%;
+                                                    top: 0px;
+                                                    left: -15px;
+                                                    order: 2;
+                                                }
+                                                .flexFilters {
+                                                    width: 95%;
+                                                    flex-wrap: wrap;
+                                                }
+                                                .filterTitle {
+                                                    margin-left: 0;
+                                                }
+                                                .filterDiv {
+                                                    height: 40px;
+                                                    margin-top: 20px;
+                                                }
+                                                .iconX4 {
+                                                    width: 42px;
+                                                    height: 42px;
+                                                }
+                                                .textFilters {
+                                                    font-size: 17px;
+                                                }
+                                                /*first section */
+                                                .firstSection {
+                                                    margin-bottom: 50px;
+                                                }
+                                                .populaireDiv {
+                                                    border-radius: 0;
+                                                    width: 100%;
+                                                    height: auto;
+                                                    margin: 0;
+                                                    padding-bottom: 30px;
+                                                }
+                                                .littleCardLink {
+                                                    width: 85%;
+                                                    margin-bottom: 20px;
+                                                }
+                                                .littleCardWrapper {
+                                                    margin: 3% 0;
+                                                }
+                                                .hebergementDiv {
+                                                    background-color: transparent;
+                                                    width: 100%;
+                                                    margin-top: 0;
+                                                }
+                                                .h1Hebergements {
+                                                    align-self: flex-start;
+                                                }
+                                                .linkMediumCard {
+                                                    margin-bottom: 90px;
+                                                }
+                                                .flexCard {
+                                                    width: 85%;
+                                                }
+                                                .linkMediumCard {
+                                                    margin-bottom: 30px;
+                                                    height: 200px;
+                                                }
+                                                .mediumCardWrapper {
+                                                    width: 100%;
+                                                    height: 200px;
+                                                    box-shadow: 2px 2px 2px #f2f2f2;
+                                                }
+                                                .h3Hebergement {
+                                                    margin-top: 5px;
+                                                }
+                                                .underH3HebergementPositioning {
+                                                    margin-top: -12px;
+                                                }
+                                                .h2AfficherPlusPosition {
+                                                    margin-left: 0;
+                                                    padding-left: 20px;
+                                                }
+                                                /* second section */
+                                                .h1ActivitésPosition {
+                                                    text-align: left;
+                                                    margin-left: 60px;
+                                                }
+                                                .flexCardSecondSection {
+                                                    width: 85%;
+                                                    align-items: center;
+                                                    padding-left: 0;
+                                                    padding-right: 0;
+                                                }
+                                                .linkBigCard {
+                                                    width: 100%;
+                                                    height: 200px;
+                                                    margin-bottom: 35px;
+                                                    margin-left: 0;
+                                                    margin-right: 0;
+                                                }
+                                                .bigCardWrapper {
+                                                    width: 100%;
+                                                    height: 200px;
+                                                }
+                                                .secondCardSize {
+                                                    width: 100%;
+                                                }
+                                                .mediumCardActivitésWrapper {
+                                                    width: 100%;
+                                                    height: 200px;
+                                                    margin-left: 0;
+                                                    margin-right: 0;
+                                                }
+                                                .mediumCardActivitésWrapperBis {
+                                                    width: 100%;
+                                                    height: 200px;
+                                                }
+                                                .mediumCardActivitésWrapperThird {
+                                                    width: 100%;
+                                                    height: 200px;
+                                                }
+                                                /* footer */
+                                                .flexFooter {
+                                                    flex-direction: column;
+                                                    align-items: center;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    padding-left: initial;
+                                                    padding-bottom: 5px;
+                                                }
+                                                .footerDiv {
+                                                    margin-left: 20px;
+                                                    width: 80%;
+                                                    height: 150px;
+                                                    margin-top: 30px;
+                                                }
+                                                .footerDivPhone {
+                                                    margin-top: 0;
+                                                }
+                                                .liFooterWrapper {
+                                                    height: 100px;
+                                                }
+                                                ul {
+                                                    margin-left: -40px;
+                                                }
+                                            }

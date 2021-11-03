@@ -1,0 +1,149 @@
+@media screen and (max-width: 992px) {
+    nav {
+        width: 100%;
+    }
+    .flexNav {
+        justify-content: initial;
+    }
+    .inputSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .textInputSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        text-align: center;
+    }
+    .firstTitleSize {
+        width: 500px;
+    }
+    .underTitlePosition {
+        margin-top: -15px;
+        margin-bottom: 40px;
+    }
+    /* input section */
+    .flexInput {
+        justify-content: center;
+    }
+    .filterTitle {
+        align-self: flex-start;
+    }
+    .filterWrapper {
+        flex-wrap: wrap;
+    }
+    .resetMargin {
+        margin-top: 20px;
+    }
+    /* first section */
+    .populaireDiv {
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        order: 1;
+    }
+    .littleCardSideWidthBis {
+        width: 180px;
+    }
+    .ratingStarsPositioningBis {
+        margin-top: 75px;
+    }
+    .littleCardLink {
+        width: 60%;
+        height: 130px;
+        margin-bottom: 40px;
+    }
+    .firstSection {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .hebergementDiv {
+        margin-top: 90px;
+        width: 70%;
+        align-items: center;
+    }
+    .topPosition {
+        margin-top: 0px;
+    }
+    .flexCard {
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    .linkMediumCard {
+        width: 100%;
+        height: 259px;
+        margin-bottom: 30px;
+    }
+    .mediumCardWrapper {
+        margin-bottom: 30px;
+        height: 250px;
+        width: 100%;
+    }
+    .underH3HebergementPositioning {
+        margin-top: 4%;
+    }
+    .h2ResponsivePosition {
+        align-self: flex-start;
+    }
+    .h2AfficherPlusPosition {
+        align-self: flex-start;
+    }
+    /* second section */
+    .activitésSection {
+        text-align: center;
+    }
+    .h1ActivitésPosition {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .flexSecondSection {
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: initial;
+        text-align: initial;
+        width: 100%;
+    }
+    .flexCardSecondSection {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+    .linkBigCard {
+        width: 60%;
+        margin: 0;
+    }
+    .bigCardWrapper {
+        height: 290px;
+        margin-bottom: 40px;
+    }
+    .bigCard {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .secondCardSize {
+        width: 60%;
+    }
+    .mediumCardActivitésWrapper {
+        height: 290px;
+        margin-bottom: 40px;
+    }
+    .mediumCardActivitésWrapperBis {
+        height: 290px;
+        margin-bottom: 40px;
+    }
+    .mediumCardActivitésWrapperThird {
+        height: 290px;
+        margin-bottom: 40px;
+    }
+    .flexFooter {
+        padding-left: 8%;
+    }
+}
