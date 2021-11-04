@@ -359,11 +359,11 @@ input[type=submit] {
 }
 
 #littleCard2 {
-    background-image: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
 }
 
 #littleCard3 {
-    background-image: url(/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
 }
 
 .littleCardSide {
@@ -430,27 +430,27 @@ input[type=submit] {
 }
 
 #mediumCard {
-    background-image: url(/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
 }
 
 #mediumCard2 {
-    background-image: url(/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
 }
 
 #mediumCard3 {
-    background-image: url(/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
 }
 
 #mediumCard4 {
-    background-image: url(/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
 }
 
 #mediumCard5 {
-    background-image: url(/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
 }
 
 #mediumCard6 {
-    background-image: url(/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
 }
 
 .linkMediumCard {
@@ -554,11 +554,11 @@ input[type=submit] {
 }
 
 #firstBigCard {
-    background-image: url(/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
 }
 
 #secondBigCard {
-    background-image: url(/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
 }
 
 .bigCardWrapper:hover {
@@ -655,19 +655,19 @@ input[type=submit] {
 }
 
 #mediumCardActivités1 {
-    background-image: url(/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
 }
 
 #mediumCardActivités2 {
-    background-image: url(/images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
 }
 
 #mediumCardActivités3 {
-    background-image: url(/images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg);
 }
 
 #mediumCardActivités4 {
-    background-image: url(/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
 }
 
 .h3ActivitésPosition {
