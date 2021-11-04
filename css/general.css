@@ -355,7 +355,7 @@ input[type=submit] {
 }
 
 #littleCard {
-    background-image: url(/images/hebergements/4_small/hotel-le-soleil.jpg);
+    background-image: url(https://raw.githubusercontent.com/Kepoulpe/Reservia/master/images/hebergements/4_small/hotel-le-soleil.jpg);
 }
 
 #littleCard2 {
